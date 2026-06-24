@@ -1,0 +1,46 @@
+{
+  "modules": {
+    "gst-act": {
+      "id": "gst-act",
+      "title": "GST Act, 2017",
+      "icon": "📜",
+      "badge": 20,
+      "color": "#1a3a5c",
+      "description": "Complete GST Act with all sections",
+      "external": "https://www.cbic.gov.in/acts"
+    },
+    "gst-rules": {
+      "id": "gst-rules",
+      "title": "GST Rules, 2017",
+      "icon": "📋",
+      "badge": 15,
+      "color": "#2e7d32",
+      "description": "All GST Rules and regulations",
+      "external": "https://www.cbic.gov.in/rules"
+    },
+    "igst-act": {
+      "id": "igst-act",
+      "title": "IGST Act, 2017",
+      "icon": "🏛️",
+      "badge": 10,
+      "color": "#c62828",
+      "description": "Integrated GST Act provisions"
+    },
+    "important": {
+      "id": "important",
+      "title": "Important Sections & Rules",
+      "icon": "⭐",
+      "badge": 8,
+      "color": "#f9a825",
+      "description": "Most frequently used sections and rules"
+    },
+    "fut": {
+      "id": "fut",
+      "title": "Frequently Used Tools",
+      "icon": "🛠️",
+      "badge": 5,
+      "color": "#ff6b35",
+      "description": "PDF tools, calculators, and utilities"
+    }
+  }
+}
