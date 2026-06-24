@@ -1,0 +1,38 @@
+{
+  "title": "GST Act, 2017",
+  "sections": [
+    {
+      "id": "s1",
+      "number": "1",
+      "heading": "Short Title, Extent and Commencement",
+      "content": "(1) This Act may be called the Central Goods and Services Tax Act, 2017.\n\n(2) It extends to the whole of India except the State of Jammu and Kashmir.\n\n(3) It shall come into force on such date as the Central Government may, by notification in the Official Gazette, appoint:\n\nProvided that different dates may be appointed for different provisions of this Act and any reference in any such provision to the commencement of this Act shall be construed as a reference to the coming into force of that provision.",
+      "references": [
+        { "type": "rule", "id": "r2a", "text": "Rule 2(a)" }
+      ]
+    },
+    {
+      "id": "s2",
+      "number": "2",
+      "heading": "Definitions",
+      "content": "In this Act, unless the context otherwise requires—\n\n(1) \"agent\" means a person, including a factor, broker, commission agent, del credere agent, an auctioneer or any other mercantile agent, by whatever name called, who carries on the business of supply or receipt of goods or services or both on behalf of another;\n\n(2) \"agriculture\" means the cultivation of plants and rearing of all life-forms of animals, except the rearing of horses, for food, fibre, fuel, raw material or other similar products;\n\n(3) \"agriculturist\" means an individual or a Hindu Undivided Family who undertakes cultivation of land—\n(a) by own labour, or\n(b) by the labour of family, or\n(c) by servants on wages payable in cash or kind or by hired labour under personal supervision or the personal supervision of any member of the family;",
+      "references": [
+        { "type": "rule", "id": "r2b", "text": "Rule 2(b)" },
+        { "type": "section", "id": "s7", "text": "Section 7" }
+      ]
+    },
+    {
+      "id": "s3",
+      "number": "3",
+      "heading": "Previous Law",
+      "content": "The provisions of this Act shall be in addition to, and not in derogation of, the provisions of any other law for the time being in force.",
+      "references": []
+    },
+    {
+      "id": "s7",
+      "number": "7",
+      "heading": "Scope of Supply",
+      "content": "(1) For the purposes of this Act, the expression \"supply\" includes—\n(a) all forms of supply of goods or services or both such as sale, transfer, barter, exchange, licence, rental, lease or disposal made or agreed to be made for a consideration by a person in the course or furtherance of business;\n(b) import of services for a consideration whether or not in the course or furtherance of business;\n(c) the activities specified in Schedule I, made or agreed to be made without a consideration; and\n(d) the activities to be treated as supply of goods or supply of services as referred to in Schedule II.",
+      "references": []
+    }
+  ]
+}
