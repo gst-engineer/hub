@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GST Nexus</title>
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/themes.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">🏛️</span>
+                    <h1>GST Nexus</h1>
+                    <span class="version">v1.0</span>
+                </div>
+                <div class="header-actions">
+                    <div class="search-wrapper">
+                        <input type="text" id="globalSearch" placeholder="🔍 Search sections, rules, tools..." class="search-input">
+                        <span class="search-shortcut">⌘K</span>
+                    </div>
+                    <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                    <button id="pinToggle" class="icon-btn" aria-label="Toggle pinboard">
+                        <span>📌</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Quick Pins -->
+        <nav class="quick-pins" id="quickPins">
+            <div class="pins-container">
+                <span class="pins-label">📌 Pinned:</span>
+                <div class="pins-list" id="pinsList">
+                    <!-- Dynamically populated -->
+                </div>
+                <button class="pin-add-btn" id="addPinBtn">+ Add Pin</button>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Dashboard Grid -->
+            <section class="dashboard-grid" id="dashboardGrid">
+                <!-- Module Cards rendered dynamically -->
+            </section>
+
+            <!-- Module View -->
+            <section class="module-view" id="moduleView" style="display:none;">
+                <div class="module-header">
+                    <button class="back-btn" id="backToDashboard">← Back</button>
+                    <h2 id="moduleTitle">Module Title</h2>
+                    <div class="module-actions">
+                        <button class="module-action-btn" id="exportBtn">📥 Export</button>
+                        <button class="module-action-btn" id="printBtn">🖨️ Print</button>
+                    </div>
+                </div>
+                <div class="module-search">
+                    <input type="text" id="moduleSearch" placeholder="Search within this module..." class="search-input">
+                </div>
+                <div id="moduleContent"></div>
+            </section>
+        </main>
+
+        <!-- Modal Container -->
+        <div id="modalContainer" class="modal-container"></div>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <div class="footer-content">
+                <span>© 2026 GST Command Center</span>
+                <span>📅 Last Updated: <span id="lastUpdated"></span></span>
+                <span class="visitor-badge">👁️ <span id="visitorCount">---</span></span>
+            </div>
+        </footer>
+    </div>
+
+    <script type="module">
+        import { App } from './js/core/app.js';
+        const app = new App();
+        app.init();
+    </script>
+</body>
+</html>
