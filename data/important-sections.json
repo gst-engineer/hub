@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "id": "imp1",
+      "type": "section",
+      "number": "2",
+      "heading": "Definitions (Key Definitions)",
+      "content": "Key definitions that are most frequently used in GST compliance including business, consideration, goods, services, and taxable person.",
+      "references": [
+        { "type": "rule", "id": "r2", "text": "Rule 2" }
+      ],
+      "notes": "Most commonly referred section in GST"
+    },
+    {
+      "id": "imp2",
+      "type": "section",
+      "number": "7",
+      "heading": "Scope of Supply",
+      "content": "Definition of supply including all forms of supply of goods or services for consideration in the course or furtherance of business.",
+      "references": [],
+      "notes": "Critical for determining tax liability"
+    },
+    {
+      "id": "imp3",
+      "type": "rule",
+      "number": "2(a)",
+      "heading": "Definition of Business",
+      "content": "Business includes any trade, commerce, manufacture, or any adventure in the nature of trade, commerce, or manufacture.",
+      "references": [
+        { "type": "section", "id": "s2", "text": "Section 2" }
+      ],
+      "notes": "Determines who is liable to register"
+    }
+  ]
+}
