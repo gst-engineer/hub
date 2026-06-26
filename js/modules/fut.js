@@ -18,6 +18,11 @@ export class FUTModule {
 
     buildHTML() {
         return `
+            <div style="margin-bottom: 16px; padding: 12px; background: var(--bg-primary); border-radius: var(--radius-sm);">
+                <p style="font-size: 14px; color: var(--text-secondary);">
+                    🛠️ Frequently used tools and utilities for GST compliance
+                </p>
+            </div>
             <div class="tools-grid">
                 ${this.tools.map(tool => `
                     <div class="tool-card" data-tool="${tool.id}">
@@ -43,7 +48,7 @@ export class FUTModule {
                 <div class="tool-card">
                     <span class="tool-icon">📄</span>
                     <h4>PDF Merger</h4>
-                    <p>Merge multiple PDF files</p>
+                    <p>Merge multiple PDF files into one</p>
                     <button onclick="window.open('/modules/pdf-tools/merger.html', '_blank')">🚀 Launch Tool</button>
                 </div>
                 <div class="tool-card">
@@ -51,6 +56,12 @@ export class FUTModule {
                     <h4>PDF Splitter</h4>
                     <p>Split PDF into multiple files</p>
                     <button onclick="window.open('/modules/pdf-tools/splitter.html', '_blank')">🚀 Launch Tool</button>
+                </div>
+                <div class="tool-card">
+                    <span class="tool-icon">🧮</span>
+                    <h4>GST Calculator</h4>
+                    <p>Calculate GST for any amount</p>
+                    <a href="https://www.cbic.gov.in/gst-calculator" target="_blank">🔗 Open Tool</a>
                 </div>
             </div>
         `;
