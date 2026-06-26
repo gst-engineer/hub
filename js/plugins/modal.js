@@ -23,7 +23,6 @@ export class Modal {
             </div>
         `;
 
-        // Event listeners
         document.getElementById('modalCloseBtn').addEventListener('click', () => this.close());
         document.getElementById('modalCancelBtn').addEventListener('click', () => this.close());
         document.getElementById('modalOverlay').addEventListener('click', (e) => {
@@ -65,9 +64,8 @@ export class Modal {
         return this.isOpen;
     }
 
-    // ✅ NEW: Show reference in modal
+    // ✅ Main method called from reference links
     showReference(refType, refId, refText) {
-        // Look up the reference data
         const referenceData = this.findReference(refType, refId);
         
         if (referenceData) {
@@ -92,7 +90,6 @@ export class Modal {
                     <button class="btn btn-secondary" id="modalCancelBtn">Close</button>
                 `
             );
-            // Re-bind close button
             document.getElementById('modalCancelBtn').addEventListener('click', () => this.close());
         } else {
             this.show(
@@ -108,11 +105,10 @@ export class Modal {
         }
     }
 
-    // ✅ NEW: Find reference in loaded data
     findReference(refType, refId) {
-        // Search through all loaded modules
-        const modules = window.app ? window.app.modules : [];
-        const moduleInstances = window.app ? window.app.moduleInstances : {};
+        if (!window.app) return null;
+        
+        const moduleInstances = window.app.moduleInstances || {};
         
         for (const [moduleId, instance] of Object.entries(moduleInstances)) {
             if (instance.data) {
@@ -139,52 +135,10 @@ export class Modal {
         return null;
     }
 
-    // ✅ NEW: Format content for modal display
     formatContent(content) {
         if (typeof content === 'string') {
             return content.split('\n').filter(p => p.trim()).map(p => `<p>${p}</p>`).join('');
         }
         return content || 'No content available';
-    }
-
-    // ✅ NEW: Open full reference in main view
-    openFullReference(refType, refId) {
-        this.close();
-        // Navigate to the module containing this reference
-        if (window.app) {
-            // Find which module contains this reference
-            const moduleInstances = window.app.moduleInstances;
-            for (const [moduleId, instance] of Object.entries(moduleInstances)) {
-                if (instance.data) {
-                    let items = [];
-                    if (moduleId === 'gst-act' || moduleId === 'igst-act') {
-                        items = instance.data.sections || [];
-                    } else if (moduleId === 'gst-rules') {
-                        items = instance.data.rules || [];
-                    } else if (moduleId === 'important') {
-                        items = instance.data.items || [];
-                    }
-                    
-                    const found = items.find(item => item.id === refId);
-                    if (found) {
-                        window.app.openModule(moduleId);
-                        // Scroll to the specific section after it loads
-                        setTimeout(() => {
-                            const element = document.getElementById(`${refType}-${refId}`);
-                            if (element) {
-                                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                                // Highlight the section
-                                element.style.borderColor = '#ff6b35';
-                                element.style.borderWidth = '2px';
-                                setTimeout(() => {
-                                    element.style.borderColor = 'var(--border-color)';
-                                }, 3000);
-                            }
-                        }, 500);
-                        return;
-                    }
-                }
-            }
-        }
     }
 }
