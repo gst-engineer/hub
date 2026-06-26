@@ -15,7 +15,6 @@ export class App {
         this.modal = new Modal();
         this.search = new Search(this);
         this.modules = [];
-        this._accordionHandler = null; // Store handler reference
         this.moduleInstances = {
             'gst-act': new GSTAct(this),
             'gst-rules': new GSTRules(this),
@@ -23,6 +22,8 @@ export class App {
             'important': new ImportantModule(this),
             'fut': new FUTModule(this)
         };
+        // Store accordion handler reference
+        this.accordionHandler = null;
     }
 
     async init() {
@@ -33,6 +34,9 @@ export class App {
         this.setupTheme();
         this.updateLastUpdated();
         this.setupKeyboardShortcuts();
+        
+        // Make app globally accessible
+        window.app = this;
     }
 
     async loadModules() {
@@ -54,6 +58,8 @@ export class App {
 
     renderDashboard() {
         const grid = document.getElementById('dashboardGrid');
+        if (!grid) return;
+        
         grid.innerHTML = this.modules.map(module => `
             <div class="module-card" data-module="${module.id}" style="--card-color: ${module.color}">
                 <span class="card-icon">${module.icon}</span>
@@ -87,54 +93,90 @@ export class App {
         this.state.set('currentModule', moduleId);
         this.state.set('currentView', 'module');
 
-        document.getElementById('dashboardGrid').style.display = 'none';
-        document.getElementById('moduleView').style.display = 'block';
-        document.getElementById('moduleTitle').textContent = module.title;
-
-        const content = document.getElementById('moduleContent');
-        content.innerHTML = '<div class="empty-state"><span class="empty-icon">⏳</span><h3>Loading...</h3></div>';
+        // Show module view, hide dashboard
+        const dashboardGrid = document.getElementById('dashboardGrid');
+        const moduleView = document.getElementById('moduleView');
+        const moduleTitle = document.getElementById('moduleTitle');
+        const moduleContent = document.getElementById('moduleContent');
+        
+        if (dashboardGrid) dashboardGrid.style.display = 'none';
+        if (moduleView) moduleView.style.display = 'block';
+        if (moduleTitle) moduleTitle.textContent = module.title;
+        
+        if (moduleContent) {
+            moduleContent.innerHTML = '<div class="empty-state"><span class="empty-icon">⏳</span><h3>Loading...</h3></div>';
+        }
 
         try {
             const instance = this.moduleInstances[moduleId];
-            if (instance) {
+            if (instance && moduleContent) {
                 const html = await instance.render();
-                content.innerHTML = html;
+                moduleContent.innerHTML = html;
                 
-                // ✅ Setup accordion handlers
-                this.setupAccordionHandlers();
+                // ✅ CRITICAL: Setup accordion after content is loaded
+                this.setupAccordion();
                 
+                // Index for search
                 if (instance.getSearchData) {
                     this.search.indexModule(moduleId, instance.getSearchData());
                 }
-            } else {
-                content.innerHTML = '<div class="empty-state"><span class="empty-icon">🚧</span><h3>Module under construction</h3></div>';
+            } else if (moduleContent) {
+                moduleContent.innerHTML = '<div class="empty-state"><span class="empty-icon">🚧</span><h3>Module under construction</h3></div>';
             }
         } catch (error) {
             console.error('Error loading module:', error);
-            content.innerHTML = '<div class="empty-state"><span class="empty-icon">❌</span><h3>Failed to load module</h3></div>';
+            if (moduleContent) {
+                moduleContent.innerHTML = '<div class="empty-state"><span class="empty-icon">❌</span><h3>Failed to load module</h3></div>';
+            }
         }
+
+        // Scroll to top
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    // ✅ NEW METHOD: Setup accordion click handlers
-    setupAccordionHandlers() {
+    // ✅ ACCORDION SETUP - This is the key fix
+    setupAccordion() {
         const headers = document.querySelectorAll('.band-header');
+        console.log(`Found ${headers.length} accordion headers`); // Debug log
         
         headers.forEach(header => {
-            // Remove existing listener if any
-            if (this._accordionHandler) {
-                header.removeEventListener('click', this._accordionHandler);
-            }
+            // Remove any existing listener to prevent duplicates
+            header.removeEventListener('click', this.accordionHandler);
             
-            // Add new listener
-            header.addEventListener('click', this._accordionHandler = (e) => {
-                const targetId = header.dataset.target;
+            // Add click listener
+            header.addEventListener('click', this.accordionHandler = (e) => {
+                // Get the target content ID from data attribute
+                const targetId = header.getAttribute('data-target');
+                if (!targetId) {
+                    console.warn('No data-target found on header');
+                    return;
+                }
+                
                 const content = document.getElementById(targetId);
+                if (!content) {
+                    console.warn(`Content element not found: ${targetId}`);
+                    return;
+                }
                 
-                if (!content) return;
+                // Toggle classes
+                const isActive = header.classList.contains('active');
                 
-                // Toggle active state
+                // Close all other bands (optional - uncomment for exclusive accordion)
+                // if (!isActive) {
+                //     document.querySelectorAll('.band-header.active').forEach(h => {
+                //         if (h !== header) {
+                //             h.classList.remove('active');
+                //             const otherContent = document.getElementById(h.getAttribute('data-target'));
+                //             if (otherContent) otherContent.classList.remove('open');
+                //         }
+                //     });
+                // }
+                
+                // Toggle this band
                 header.classList.toggle('active');
                 content.classList.toggle('open');
+                
+                console.log(`Toggled: ${targetId}, active: ${header.classList.contains('active')}`); // Debug
             });
         });
     }
@@ -142,56 +184,95 @@ export class App {
     goBackToDashboard() {
         this.state.set('currentView', 'dashboard');
         this.state.set('currentModule', null);
-        document.getElementById('dashboardGrid').style.display = 'grid';
-        document.getElementById('moduleView').style.display = 'none';
-        document.getElementById('moduleContent').innerHTML = '';
-        document.getElementById('moduleSearch').value = '';
+        
+        const dashboardGrid = document.getElementById('dashboardGrid');
+        const moduleView = document.getElementById('moduleView');
+        const moduleContent = document.getElementById('moduleContent');
+        const moduleSearch = document.getElementById('moduleSearch');
+        
+        if (dashboardGrid) dashboardGrid.style.display = 'grid';
+        if (moduleView) moduleView.style.display = 'none';
+        if (moduleContent) moduleContent.innerHTML = '';
+        if (moduleSearch) moduleSearch.value = '';
+        
         this.search.clearHighlights();
     }
 
     setupEventListeners() {
-        document.getElementById('backToDashboard').addEventListener('click', () => {
-            this.goBackToDashboard();
-        });
+        // Back button
+        const backBtn = document.getElementById('backToDashboard');
+        if (backBtn) {
+            backBtn.addEventListener('click', () => {
+                this.goBackToDashboard();
+            });
+        }
 
-        document.getElementById('themeToggle').addEventListener('click', () => {
-            this.toggleTheme();
-        });
+        // Theme toggle
+        const themeToggle = document.getElementById('themeToggle');
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => {
+                this.toggleTheme();
+            });
+        }
 
-        document.getElementById('pinToggle').addEventListener('click', () => {
-            this.togglePinboard();
-        });
+        // Pin toggle
+        const pinToggle = document.getElementById('pinToggle');
+        if (pinToggle) {
+            pinToggle.addEventListener('click', () => {
+                this.togglePinboard();
+            });
+        }
 
-        document.getElementById('addPinBtn').addEventListener('click', () => {
-            this.showAddPinDialog();
-        });
+        // Add pin button
+        const addPinBtn = document.getElementById('addPinBtn');
+        if (addPinBtn) {
+            addPinBtn.addEventListener('click', () => {
+                this.showAddPinDialog();
+            });
+        }
 
-        document.getElementById('moduleSearch').addEventListener('input', (e) => {
-            const query = e.target.value.trim();
-            if (query.length >= 2) {
-                const moduleId = this.state.get('currentModule');
-                this.search.searchInModule(moduleId, query);
-            } else {
-                this.search.clearHighlights();
-            }
-        });
+        // Module search
+        const moduleSearch = document.getElementById('moduleSearch');
+        if (moduleSearch) {
+            moduleSearch.addEventListener('input', (e) => {
+                const query = e.target.value.trim();
+                if (query.length >= 2) {
+                    const moduleId = this.state.get('currentModule');
+                    this.search.searchInModule(moduleId, query);
+                } else {
+                    this.search.clearHighlights();
+                }
+            });
+        }
 
-        document.getElementById('globalSearch').addEventListener('input', (e) => {
-            const query = e.target.value.trim();
-            if (query.length >= 2) {
-                this.search.globalSearch(query);
-            } else {
-                this.search.clearHighlights();
-            }
-        });
+        // Global search
+        const globalSearch = document.getElementById('globalSearch');
+        if (globalSearch) {
+            globalSearch.addEventListener('input', (e) => {
+                const query = e.target.value.trim();
+                if (query.length >= 2) {
+                    this.search.globalSearch(query);
+                } else {
+                    this.search.clearHighlights();
+                }
+            });
+        }
 
-        document.getElementById('exportBtn').addEventListener('click', () => {
-            this.exportCurrentModule();
-        });
+        // Export button
+        const exportBtn = document.getElementById('exportBtn');
+        if (exportBtn) {
+            exportBtn.addEventListener('click', () => {
+                this.exportCurrentModule();
+            });
+        }
 
-        document.getElementById('printBtn').addEventListener('click', () => {
-            window.print();
-        });
+        // Print button
+        const printBtn = document.getElementById('printBtn');
+        if (printBtn) {
+            printBtn.addEventListener('click', () => {
+                window.print();
+            });
+        }
     }
 
     setupTheme() {
@@ -219,10 +300,13 @@ export class App {
     loadPins() {
         const pins = this.state.getPins();
         const pinsList = document.getElementById('pinsList');
+        if (!pinsList) return;
+        
         if (pins.length === 0) {
             pinsList.innerHTML = '<span style="color: var(--text-muted); font-size: 13px;">No pins yet</span>';
             return;
         }
+        
         pinsList.innerHTML = pins.map(pin => `
             <span class="pin-item" data-pin="${pin.id}">
                 <span>${pin.icon} ${pin.title}</span>
@@ -286,24 +370,30 @@ export class App {
 
     togglePinboard() {
         const pins = document.querySelector('.quick-pins');
-        pins.style.display = pins.style.display === 'none' ? 'block' : 'none';
-        this.showToast(pins.style.display === 'none' ? 'Pinboard hidden' : 'Pinboard shown');
+        if (pins) {
+            pins.style.display = pins.style.display === 'none' ? 'flex' : 'none';
+            this.showToast(pins.style.display === 'none' ? 'Pinboard hidden' : 'Pinboard shown');
+        }
     }
 
     updateLastUpdated() {
         const now = new Date();
-        document.getElementById('lastUpdated').textContent = now.toLocaleDateString('en-IN', {
-            day: 'numeric',
-            month: 'short',
-            year: 'numeric'
-        });
+        const lastUpdated = document.getElementById('lastUpdated');
+        if (lastUpdated) {
+            lastUpdated.textContent = now.toLocaleDateString('en-IN', {
+                day: 'numeric',
+                month: 'short',
+                year: 'numeric'
+            });
+        }
     }
 
     setupKeyboardShortcuts() {
         document.addEventListener('keydown', (e) => {
             if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
                 e.preventDefault();
-                document.getElementById('globalSearch').focus();
+                const search = document.getElementById('globalSearch');
+                if (search) search.focus();
             }
             if (e.key === 'Escape') {
                 if (this.modal.isOpen()) {
@@ -320,13 +410,18 @@ export class App {
         if (!moduleId) return;
         
         const content = document.getElementById('moduleContent');
+        if (!content) return;
+        
         const html = content.innerHTML;
-        const title = document.getElementById('moduleTitle').textContent;
+        const title = document.getElementById('moduleTitle');
+        const titleText = title ? title.textContent : 'Module';
         
         const printWindow = window.open('', '_blank');
+        if (!printWindow) return;
+        
         printWindow.document.write(`
             <html>
-            <head><title>${title} - Export</title>
+            <head><title>${titleText} - Export</title>
             <style>
                 body { font-family: 'Inter', sans-serif; padding: 40px; max-width: 800px; margin: 0 auto; }
                 h1 { color: #1a3a5c; border-bottom: 2px solid #e0e0e8; padding-bottom: 12px; }
@@ -336,7 +431,7 @@ export class App {
             </style>
             </head>
             <body>
-                <h1>${title}</h1>
+                <h1>${titleText}</h1>
                 ${html}
                 <p style="margin-top: 40px; color: #8a8a9e; font-size: 12px;">Exported from GST Command Center</p>
             </body>
@@ -348,12 +443,12 @@ export class App {
     }
 
     showToast(message) {
-        const container = document.querySelector('.toast-container') || (() => {
-            const div = document.createElement('div');
-            div.className = 'toast-container';
-            document.body.appendChild(div);
-            return div;
-        })();
+        let container = document.querySelector('.toast-container');
+        if (!container) {
+            container = document.createElement('div');
+            container.className = 'toast-container';
+            document.body.appendChild(container);
+        }
 
         const toast = document.createElement('div');
         toast.className = 'toast';
@@ -368,4 +463,8 @@ export class App {
     }
 }
 
-window.app = null;
+// Initialize app when DOM is ready
+document.addEventListener('DOMContentLoaded', () => {
+    const app = new App();
+    app.init();
+});
