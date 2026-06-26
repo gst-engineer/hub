@@ -15,6 +15,7 @@ export class App {
         this.modal = new Modal();
         this.search = new Search(this);
         this.modules = [];
+        this.accordionHandler = null;
         this.moduleInstances = {
             'gst-act': new GSTAct(this),
             'gst-rules': new GSTRules(this),
@@ -22,8 +23,6 @@ export class App {
             'important': new ImportantModule(this),
             'fut': new FUTModule(this)
         };
-        // Store accordion handler reference
-        this.accordionHandler = null;
     }
 
     async init() {
@@ -35,7 +34,7 @@ export class App {
         this.updateLastUpdated();
         this.setupKeyboardShortcuts();
         
-        // Make app globally accessible
+        // ✅ Make app globally accessible for onclick handlers
         window.app = this;
     }
 
@@ -93,7 +92,6 @@ export class App {
         this.state.set('currentModule', moduleId);
         this.state.set('currentView', 'module');
 
-        // Show module view, hide dashboard
         const dashboardGrid = document.getElementById('dashboardGrid');
         const moduleView = document.getElementById('moduleView');
         const moduleTitle = document.getElementById('moduleTitle');
@@ -113,10 +111,9 @@ export class App {
                 const html = await instance.render();
                 moduleContent.innerHTML = html;
                 
-                // ✅ CRITICAL: Setup accordion after content is loaded
+                // Setup accordion
                 this.setupAccordion();
                 
-                // Index for search
                 if (instance.getSearchData) {
                     this.search.indexModule(moduleId, instance.getSearchData());
                 }
@@ -130,22 +127,17 @@ export class App {
             }
         }
 
-        // Scroll to top
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    // ✅ ACCORDION SETUP - This is the key fix
     setupAccordion() {
         const headers = document.querySelectorAll('.band-header');
-        console.log(`Found ${headers.length} accordion headers`); // Debug log
+        console.log(`Found ${headers.length} accordion headers`);
         
         headers.forEach(header => {
-            // Remove any existing listener to prevent duplicates
             header.removeEventListener('click', this.accordionHandler);
             
-            // Add click listener
             header.addEventListener('click', this.accordionHandler = (e) => {
-                // Get the target content ID from data attribute
                 const targetId = header.getAttribute('data-target');
                 if (!targetId) {
                     console.warn('No data-target found on header');
@@ -158,25 +150,10 @@ export class App {
                     return;
                 }
                 
-                // Toggle classes
-                const isActive = header.classList.contains('active');
-                
-                // Close all other bands (optional - uncomment for exclusive accordion)
-                // if (!isActive) {
-                //     document.querySelectorAll('.band-header.active').forEach(h => {
-                //         if (h !== header) {
-                //             h.classList.remove('active');
-                //             const otherContent = document.getElementById(h.getAttribute('data-target'));
-                //             if (otherContent) otherContent.classList.remove('open');
-                //         }
-                //     });
-                // }
-                
-                // Toggle this band
                 header.classList.toggle('active');
                 content.classList.toggle('open');
                 
-                console.log(`Toggled: ${targetId}, active: ${header.classList.contains('active')}`); // Debug
+                console.log(`Toggled: ${targetId}, active: ${header.classList.contains('active')}`);
             });
         });
     }
@@ -198,8 +175,45 @@ export class App {
         this.search.clearHighlights();
     }
 
+    // ✅ NEW: Open full reference from modal
+    openFullReference(refType, refId) {
+        this.modal.close();
+        
+        for (const [moduleId, instance] of Object.entries(this.moduleInstances)) {
+            if (instance.data) {
+                let items = [];
+                if (moduleId === 'gst-act' || moduleId === 'igst-act') {
+                    items = instance.data.sections || [];
+                } else if (moduleId === 'gst-rules') {
+                    items = instance.data.rules || [];
+                } else if (moduleId === 'important') {
+                    items = instance.data.items || [];
+                }
+                
+                const found = items.find(item => item.id === refId);
+                if (found) {
+                    this.openModule(moduleId);
+                    setTimeout(() => {
+                        const element = document.getElementById(`${refType}-${refId}`);
+                        if (element) {
+                            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                            element.style.borderColor = '#ff6b35';
+                            element.style.borderWidth = '2px';
+                            element.style.transition = 'border-color 0.3s ease';
+                            setTimeout(() => {
+                                element.style.borderColor = 'var(--border-color)';
+                            }, 3000);
+                        }
+                    }, 500);
+                    return;
+                }
+            }
+        }
+        
+        this.showToast(`❌ Reference ${refId} not found`);
+    }
+
     setupEventListeners() {
-        // Back button
         const backBtn = document.getElementById('backToDashboard');
         if (backBtn) {
             backBtn.addEventListener('click', () => {
@@ -207,7 +221,6 @@ export class App {
             });
         }
 
-        // Theme toggle
         const themeToggle = document.getElementById('themeToggle');
         if (themeToggle) {
             themeToggle.addEventListener('click', () => {
@@ -215,7 +228,6 @@ export class App {
             });
         }
 
-        // Pin toggle
         const pinToggle = document.getElementById('pinToggle');
         if (pinToggle) {
             pinToggle.addEventListener('click', () => {
@@ -223,7 +235,6 @@ export class App {
             });
         }
 
-        // Add pin button
         const addPinBtn = document.getElementById('addPinBtn');
         if (addPinBtn) {
             addPinBtn.addEventListener('click', () => {
@@ -231,7 +242,6 @@ export class App {
             });
         }
 
-        // Module search
         const moduleSearch = document.getElementById('moduleSearch');
         if (moduleSearch) {
             moduleSearch.addEventListener('input', (e) => {
@@ -245,7 +255,6 @@ export class App {
             });
         }
 
-        // Global search
         const globalSearch = document.getElementById('globalSearch');
         if (globalSearch) {
             globalSearch.addEventListener('input', (e) => {
@@ -258,7 +267,6 @@ export class App {
             });
         }
 
-        // Export button
         const exportBtn = document.getElementById('exportBtn');
         if (exportBtn) {
             exportBtn.addEventListener('click', () => {
@@ -266,7 +274,6 @@ export class App {
             });
         }
 
-        // Print button
         const printBtn = document.getElementById('printBtn');
         if (printBtn) {
             printBtn.addEventListener('click', () => {
