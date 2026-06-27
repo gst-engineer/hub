@@ -125,6 +125,24 @@
       "text": "Section 9"
     }
   ]
+},
+    {
+  "id": "r7",
+  "number": "7",
+  "heading": "Rate of tax of the composition levy",
+  "content": "The category of registered persons, eligible for composition levy under section 10 and the provisions of this Chapter, specified in column (2) of the Table below shall pay tax under section 10 at the rate specified in column (3) of the said Table:\n\n<table border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%; font-size: 14px;\">\n  <thead>\n    <tr style=\"background-color: #f2f2f2;\">\n      <th style=\"border: 1px solid #ddd; padding: 8px; text-align: center;\">Sl. No.</th>\n      <th style=\"border: 1px solid #ddd; padding: 8px; text-align: center;\">Section under which composition levy is opted</th>\n      <th style=\"border: 1px solid #ddd; padding: 8px; text-align: center;\">Category of registered persons</th>\n      <th style=\"border: 1px solid #ddd; padding: 8px; text-align: center;\">Rate of tax</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td style=\"border: 1px solid #ddd; padding: 8px; text-align: center;\">1.</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Sub-sections (1) and (2) of section 10</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Manufacturers, other than manufacturers of such goods as may be notified by the Government</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">half per cent. of the turnover in the State or Union territory</td>\n    </tr>\n    <tr>\n      <td style=\"border: 1px solid #ddd; padding: 8px; text-align: center;\">2.</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Sub-sections (1) and (2) of section 10</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Suppliers making supplies referred to in clause (b) of paragraph 6 of Schedule II</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">two and a half per cent. of the turnover in the State or Union territory</td>\n    </tr>\n    <tr>\n      <td style=\"border: 1px solid #ddd; padding: 8px; text-align: center;\">3.</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Sub-sections (1) and (2) of section 10</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Any other supplier eligible for composition levy under sub-sections (1) and (2) of section 10</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">half per cent. of the turnover of taxable supplies of goods and services in the State or Union territory</td>\n    </tr>\n    <tr>\n      <td style=\"border: 1px solid #ddd; padding: 8px; text-align: center;\">4.</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Sub-section (2A) of section 10</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Registered persons not eligible under the composition levy under sub-sections (1) and (2), but eligible to opt to pay tax under sub-section (2A), of section 10</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">three per cent. of the turnover of supplies of goods and services in the State or Union territory</td>\n    </tr>\n  </tbody>\n</table>",
+  "references": [
+    {
+      "type": "section",
+      "id": "s10",
+      "text": "Section 10"
+    },
+    {
+      "type": "schedule",
+      "id": "schedule2",
+      "text": "Schedule II"
+    }
+  ]
 }
   ]
 }
