@@ -1,21 +1,20 @@
 {
-  "title": "GST Rules, 2017",
-  "rules": [
+  "id": "r1",
+  "number": "1",
+  "heading": "Short title and commencement",
+  "content": "(1) These rules may be called the Central Goods and Services Tax Rules, 2017.\n\n(2) They shall come into force with effect from 22nd June, 2017.",
+  "references": []
+},
+{
+  "id": "r2",
+  "number": "2",
+  "heading": "Definitions",
+  "content": "In these rules, unless the context otherwise requires, -\n(a) \"Act\" means the Central Goods and Services Tax Act, 2017 (12 of 2017);\n(b) \"Form\" means a Form appended to these rules;\n(c) \"section\" means a section of the Act;\n(d) \"Special Economic Zone\" shall have the same meaning as assigned to it in clause (za) of section 2 of the Special Economic Zones Act, 2005 (28 of 2005);\n(e) words and expressions used herein but not defined and defined in the Act shall have the meanings respectively assigned to them in the Act.",
+  "references": [
     {
-      "id": "r1",
-      "number": "1",
-      "heading": "Short Title and Commencement",
-      "content": "(1) These rules may be called the Central Goods and Services Tax Rules, 2017.\n\n(2) They shall come into force on the date of their publication in the Official Gazette.",
-      "references": []
-    },
-    {
-      "id": "r2",
-      "number": "2",
-      "heading": "Definitions",
-      "content": "In these rules, unless the context otherwise requires—\n(a) \"Act\" means the Central Goods and Services Tax Act, 2017;\n(b) \"form\" means a form appended to these rules;\n(c) \"section\" means a section of the Act.",
-      "references": [
-        { "type": "section", "id": "s2", "text": "Section 2" }
-      ]
+      "type": "section",
+      "id": "s2",
+      "text": "Section 2"
     }
   ]
 }
