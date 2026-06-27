@@ -1249,6 +1249,192 @@
       "text": "Rule 54"
     }
   ]
+},
+    {
+  "id": "r47",
+  "number": "47",
+  "heading": "Time limit for issuing tax invoice",
+  "content": "The invoice referred to in rule 46, in the case of the taxable supply of services, shall be issued within a period of thirty days from the date of the supply of service:\n\nProvided that where the supplier of services is an insurer or a banking company or a financial institution, including a non-banking financial company, the period within which the invoice or any document in lieu thereof is to be issued shall be forty five days from the date of the supply of service:\n\nProvided further that an insurer or a banking company or a financial institution, including a non-banking financial company, or a telecom operator, or any other class of supplier of services as may be notified by the Government on the recommendations of the Council, making taxable supplies of services between distinct persons as specified in section 25, may issue the invoice before or at the time such supplier records the same in his books of account or before the expiry of the quarter during which the supply was made.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s25",
+      "text": "Section 25"
+    },
+    {
+      "type": "rule",
+      "id": "r46",
+      "text": "Rule 46"
+    }
+  ]
+},
+    {
+  "id": "r47A",
+  "number": "47A",
+  "heading": "Time limit for issuing tax invoice in cases where recipient is required to issue invoice",
+  "content": "Notwithstanding anything contained in rule 47, where an invoice referred to in rule 46 is required to be issued under clause (f) of sub-section (3) of section 31 by a registered person, who is liable to pay tax under sub-section (3) or sub-section (4) of section 9, he shall issue the said invoice within a period of thirty days from the date of receipt of the said supply of goods or services, or both, as the case may be.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s31",
+      "text": "Section 31"
+    },
+    {
+      "type": "section",
+      "id": "s9",
+      "text": "Section 9"
+    },
+    {
+      "type": "rule",
+      "id": "r47",
+      "text": "Rule 47"
+    },
+    {
+      "type": "rule",
+      "id": "r46",
+      "text": "Rule 46"
+    }
+  ]
+},
+    {
+  "id": "r48",
+  "number": "48",
+  "heading": "Manner of issuing invoice",
+  "content": "(1) The invoice shall be prepared in triplicate, in the case of supply of goods, in the following manner, namely,-\n(a) the original copy being marked as ORIGINAL FOR RECIPIENT;\n(b) the duplicate copy being marked as DUPLICATE FOR TRANSPORTER; and\n(c) the triplicate copy being marked as TRIPLICATE FOR SUPPLIER.\n\n(2) The invoice shall be prepared in duplicate, in the case of the supply of services, in the following manner, namely,-\n(a) the original copy being marked as ORIGINAL FOR RECIPIENT; and\n(b) the duplicate copy being marked as DUPLICATE FOR SUPPLIER.\n\n(3) The serial number of invoices issued during a tax period shall be furnished electronically through the common portal in FORM GSTR-1 and in FORM GSTR-1A, if any.\n\n(4) The invoice shall be prepared by such class of registered persons as may be notified by the Government, on the recommendations of the Council, by including such particulars contained in FORM GST INV-01 after obtaining an Invoice Reference Number by uploading information contained therein on the Common Goods and Services Tax Electronic Portal in such manner and subject to such conditions and restrictions as may be specified in the notification.\n\nProvided that the Commissioner may, on the recommendations of the Council, by notification, exempt a person or a class of registered persons from issuance of invoice under this sub-rule for a specified period, subject to such conditions and restrictions as may be specified in the said notification.\n\n(5) Every invoice issued by a person to whom sub-rule (4) applies in any manner other than the manner specified in the said sub-rule shall not be treated as an invoice.\n\n(6) The provisions of sub-rules (1) and (2) shall not apply to an invoice prepared in the manner specified in sub-rule (4).",
+  "references": []
+},
+    {
+  "id": "r49",
+  "number": "49",
+  "heading": "Bill of supply",
+  "content": "A bill of supply referred to in clause (c) of sub-section (3) of section 31 shall be issued by the supplier containing the following details, namely,-\n(a) name, address and Goods and Services Tax Identification Number of the supplier;\n(b) a consecutive serial number not exceeding sixteen characters, in one or multiple series, containing alphabets or numerals or special characters - hyphen or dash and slash symbolised as \"-\" and \"/\" respectively, and any combination thereof, unique for a financial year;\n(c) date of its issue;\n(d) name, address and Goods and Services Tax Identification Number or Unique Identity Number, if registered, of the recipient;\n(e) Harmonised System of Nomenclature Code for goods or services;\n(f) description of goods or services or both;\n(g) value of supply of goods or services or both taking into account discount or abatement, if any; and\n(h) signature or digital signature of the supplier or his authorised representative:\n\nProvided that the provisos to rule 46 shall, mutatis mutandis, apply to the bill of supply issued under this rule:\n\nProvided further that any tax invoice or any other similar document issued under any other Act for the time being in force in respect of any non-taxable supply shall be treated as a bill of supply for the purposes of the Act.\n\nProvided also that the signature or digital signature of the supplier or his authorised representative shall not be required in the case of issuance of an electronic bill of supply in accordance with the provisions of the Information Technology Act, 2000 (21 of 2000).\n\nProvided also that the Government may, by notification, on the recommendations of the Council, and subject to such conditions and restrictions as mentioned therein, specify that the bill of supply shall have Quick Response (QR) code.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s31",
+      "text": "Section 31"
+    },
+    {
+      "type": "rule",
+      "id": "r46",
+      "text": "Rule 46"
+    }
+  ]
+},
+    {
+  "id": "r50",
+  "number": "50",
+  "heading": "Receipt voucher",
+  "content": "A receipt voucher referred to in clause (d) of sub-section (3) of section 31 shall contain the following particulars, namely,-\n(a) name, address and Goods and Services Tax Identification Number of the supplier;\n(b) a consecutive serial number not exceeding sixteen characters, in one or multiple series, containing alphabets or numerals or special characters-hyphen or dash and slash symbolised as \"-\" and \"/\" respectively, and any combination thereof, unique for a financial year;\n(c) date of its issue;\n(d) name, address and Goods and Services Tax Identification Number or Unique Identity Number, if registered, of the recipient;\n(e) description of goods or services;\n(f) amount of advance taken;\n(g) rate of tax (central tax, State tax, integrated tax, Union territory tax or cess);\n(h) amount of tax charged in respect of taxable goods or services (central tax, State tax, integrated tax, Union territory tax or cess);\n(i) place of supply along with the name of State and its code, in case of a supply in the course of inter-State trade or commerce;\n(j) whether the tax is payable on reverse charge basis; and\n(k) signature or digital signature of the supplier or his authorised representative:\n\nProvided that where at the time of receipt of advance,-\n(i) the rate of tax is not determinable, the tax shall be paid at the rate of eighteen per cent.;\n(ii) the nature of supply is not determinable, the same shall be treated as inter-State supply.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s31",
+      "text": "Section 31"
+    }
+  ]
+},
+    {
+  "id": "r51",
+  "number": "51",
+  "heading": "Refund voucher",
+  "content": "A refund voucher referred to in clause (e) of sub-section (3) of section 31 shall contain the following particulars, namely:-\n(a) name, address and Goods and Services Tax Identification Number of the supplier;\n(b) a consecutive serial number not exceeding sixteen characters, in one or multiple series, containing alphabets or numerals or special characters-hyphen or dash and slash symbolised as \"-\" and \"/\" respectively, and any combination thereof, unique for a financial year;\n(c) date of its issue;\n(d) name, address and Goods and Services Tax Identification Number or Unique Identity Number, if registered, of the recipient;\n(e) number and date of receipt voucher issued in accordance with the provisions of rule 50;\n(f) description of goods or services in respect of which refund is made;\n(g) amount of refund made;\n(h) rate of tax (central tax, State tax, integrated tax, Union territory tax or cess);\n(i) amount of tax paid in respect of such goods or services (central tax, State tax, integrated tax, Union territory tax or cess);\n(j) whether the tax is payable on reverse charge basis; and\n(k) signature or digital signature of the supplier or his authorised representative.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s31",
+      "text": "Section 31"
+    },
+    {
+      "type": "rule",
+      "id": "r50",
+      "text": "Rule 50"
+    }
+  ]
+},
+    {
+  "id": "r52",
+  "number": "52",
+  "heading": "Payment voucher",
+  "content": "A payment voucher referred to in clause (g) of sub-section (3) of section 31 shall contain the following particulars, namely:-\n(a) name, address and Goods and Services Tax Identification Number of the supplier if registered;\n(b) a consecutive serial number not exceeding sixteen characters, in one or multiple series, containing alphabets or numerals or special characters-hyphen or dash and slash symbolised as \"-\" and \"/\" respectively, and any combination thereof, unique for a financial year;\n(c) date of its issue;\n(d) name, address and Goods and Services Tax Identification Number of the recipient;\n(e) description of goods or services;\n(f) amount paid;\n(g) rate of tax (central tax, State tax, integrated tax, Union territory tax or cess);\n(h) amount of tax payable in respect of taxable goods or services (central tax, State tax, integrated tax, Union territory tax or cess);\n(i) place of supply along with the name of State and its code, in case of a supply in the course of inter-State trade or commerce; and\n(j) signature or digital signature of the supplier or his authorised representative.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s31",
+      "text": "Section 31"
+    }
+  ]
+},
+{
+  "id": "r53",
+  "number": "53",
+  "heading": "Revised tax invoice and credit or debit notes",
+  "content": "(1) A revised tax invoice referred to in section 31 shall contain the following particulars, namely:-\n(a) the word \"Revised Invoice\", wherever applicable, indicated prominently;\n(b) name, address and Goods and Services Tax Identification Number of the supplier;\n(c) ****;\n(d) a consecutive serial number not exceeding sixteen characters, in one or multiple series, containing alphabets or numerals or special characters-hyphen or dash and slash symbolised as \"-\" and \"/\" respectively, and any combination thereof, unique for a financial year;\n(e) date of issue of the document;\n(f) name, address and Goods and Services Tax Identification Number or Unique Identity Number, if registered, of the recipient;\n(g) name and address of the recipient and the address of delivery, along with the name of State and its code, if such recipient is un-registered;\n(h) serial number and date of the corresponding tax invoice or, as the case may be, bill of supply; and\n(i) ****;\n(j) signature or digital signature of the supplier or his authorised representative.\n\n(1A) A credit or debit note referred to in section 34 shall contain the following particulars, namely:-\n(a) name, address and Goods and Services Tax Identification Number of the supplier;\n(b) nature of the document;\n(c) a consecutive serial number not exceeding sixteen characters, in one or multiple series, containing alphabets or numerals or special characters-hyphen or dash and slash symbolised as \"-\" and \"/\" respectively, and any combination thereof, unique for a financial year;\n(d) date of issue of the document;\n(e) name, address and Goods and Services Tax Identification Number or Unique Identity Number, if registered, of the recipient;\n(f) name and address of the recipient and the address of delivery, along with the name of State and its code, if such recipient is un-registered;\n(g) serial number(s) and date(s) of the corresponding tax invoice(s) or, as the case may be, bill(s) of supply;\n(h) value of taxable supply of goods or services, rate of tax and the amount of the tax credited or, as the case may be, debited to the recipient; and\n(i) signature or digital signature of the supplier or his authorised representative.\n\n(2) Every registered person who has been granted registration with effect from a date earlier than the date of issuance of certificate of registration to him, may issue revised tax invoices in respect of taxable supplies effected during the period starting from the effective date of registration till the date of the issuance of the certificate of registration:\nProvided that the registered person may issue a consolidated revised tax invoice in respect of all taxable supplies made to a recipient who is not registered under the Act during such period:\nProvided further that in the case of inter-State supplies, where the value of a supply does not exceed two lakh and fifty thousand rupees, a consolidated revised invoice may be issued separately in respect of all the recipients located in a State, who are not registered under the Act.\n\n(3) Any invoice or debit note issued in pursuance of any tax payable in accordance with the provisions of section 74 or section 129 or section 130 shall prominently contain the words \"INPUT TAX CREDIT NOT ADMISSIBLE\".",
+  "references": [
+    {
+      "type": "section",
+      "id": "s31",
+      "text": "Section 31"
+    },
+    {
+      "type": "section",
+      "id": "s34",
+      "text": "Section 34"
+    },
+    {
+      "type": "section",
+      "id": "s74",
+      "text": "Section 74"
+    },
+    {
+      "type": "section",
+      "id": "s129",
+      "text": "Section 129"
+    },
+    {
+      "type": "section",
+      "id": "s130",
+      "text": "Section 130"
+    }
+  ]
+},
+{
+  "id": "r54",
+  "number": "54",
+  "heading": "Tax invoice in special cases",
+  "content": "(1) An Input Service Distributor invoice or, as the case may be, an Input Service Distributor credit note issued by an Input Service Distributor shall contain the following details:-\n(a) name, address and Goods and Services Tax Identification Number of the Input Service Distributor;\n(b) a consecutive serial number not exceeding sixteen characters, in one or multiple series, containing alphabets or numerals or special characters- hyphen or dash and slash symbolised as \"-\", \"/\" respectively, and any combination thereof, unique for a financial year;\n(c) date of its issue;\n(d) name, address and Goods and Services Tax Identification Number of the recipient to whom the credit is distributed;\n(e) amount of the credit distributed; and\n(f) signature or digital signature of the Input Service Distributor or his authorised representative:\nProvided that where the Input Service Distributor is an office of a banking company or a financial institution, including a non-banking financial company, a tax invoice shall include any document in lieu thereof, by whatever name called, whether or not serially numbered but containing the information as mentioned above.\n\n(1A) (a) A registered person, having the same PAN and State code as an Input Service Distributor, may issue an invoice or, as the case may be, a credit or debit note to transfer the credit of common input services to the Input Service Distributor, which shall contain the following details:-\n(i) name, address and Goods and Services Tax Identification Number of the registered person having the same PAN and same State code as the Input Service Distributor;\n(ii) a consecutive serial number not exceeding sixteen characters, in one or multiple series, containing alphabets or numerals or special characters -hyphen or dash and slash symbolised as \"-\" and \"/\" respectively, and any combination thereof, unique for a financial year;\n(iii) date of its issue;\n(iv) Goods and Services Tax Identification Number of supplier of common service and original invoice number whose credit is sought to be transferred to the Input Service Distributor;\n(v) name, address and Goods and Services Tax Identification Number of the Input Service Distributor;\n(vi) taxable value, rate and amount of the credit to be transferred; and\n(vii) signature or digital signature of the registered person or his authorised representative.\n(b) The taxable value in the invoice issued under clause (a) shall be the same as the value of the common services.\n\n(2) Where the supplier of taxable service is an insurer or a banking company or a financial institution, including a non-banking financial company, the said supplier may issue a consolidated tax invoice or any other document in lieu thereof, by whatever name called for the supply of services made during a month at the end of the month, whether issued or made available, physically or electronically whether or not serially numbered, and whether or not containing the address of the recipient of taxable service but containing other information as mentioned under rule 46.\n\nProvided that the signature or digital signature of the supplier or his authorised representative shall not be required in the case of issuance of a consolidated tax invoice or any other document in lieu thereof in accordance with the provisions of the Information Technology Act, 2000 (21 of 2000).\n\n(3) Where the supplier of taxable service is a goods transport agency supplying services in relation to transportation of goods by road in a goods carriage, the said supplier shall issue a tax invoice or any other document in lieu thereof, by whatever name called, containing the gross weight of the consignment, name of the consigner and the consignee, registration number of goods carriage in which the goods are transported, details of goods transported, details of place of origin and destination, Goods and Services Tax Identification Number of the person liable for paying tax whether as consigner, consignee or goods transport agency, and also containing other information as mentioned under rule 46.\n\n(4) Where the supplier of taxable service is supplying passenger transportation service, a tax invoice shall include ticket in any form, by whatever name called, whether or not serially numbered, and whether or not containing the address of the recipient of service but containing other information as mentioned under rule 46.\n\nProvided that the signature or digital signature of the supplier or his authorised representative shall not be required in the case of issuance of ticket in accordance with the provisions of the Information Technology Act, 2000 (21 of 2000).\n\n(4A) A registered person supplying services by way of admission to exhibition of cinematograph films in multiplex screens shall be required to issue an electronic ticket and the said electronic ticket shall be deemed to be a tax invoice for all purposes of the Act, even if such ticket does not contain the details of the recipient of service but contains the other information as mentioned under rule 46:\n\nProvided that the supplier of such service in a screen other than multiplex screens may, at his option, follow the above procedure.\n\n(5) The provisions of sub-rule (2) or sub-rule (4) shall apply, mutatis mutandis, to the documents issued under rule 49 or rule 50 or rule 51 or rule 52 or rule 53.",
+  "references": [
+    {
+      "type": "rule",
+      "id": "r46",
+      "text": "Rule 46"
+    },
+    {
+      "type": "rule",
+      "id": "r49",
+      "text": "Rule 49"
+    },
+    {
+      "type": "rule",
+      "id": "r50",
+      "text": "Rule 50"
+    },
+    {
+      "type": "rule",
+      "id": "r51",
+      "text": "Rule 51"
+    },
+    {
+      "type": "rule",
+      "id": "r52",
+      "text": "Rule 52"
+    },
+    {
+      "type": "rule",
+      "id": "r53",
+      "text": "Rule 53"
+    }
+  ]
 }
   ]
 }
