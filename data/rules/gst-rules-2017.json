@@ -2098,6 +2098,489 @@
       "text": "Rule 16A"
     }
   ]
+},
+    {
+  "id": "r139",
+  "number": "139",
+  "heading": "Inspection, search and seizure",
+  "content": "(1) Where the proper officer not below the rank of a Joint Commissioner has reasons to believe that a place of business or any other place is to be visited for the purposes of inspection or search or, as the case may be, seizure in accordance with the provisions of section 67, he shall issue an authorisation in FORM GST INS-01 authorising any other officer subordinate to him to conduct the inspection or search or, as the case may be, seizure of goods, documents, books or things liable to confiscation.\n\n(2) Where any goods, documents, books or things are liable for seizure under sub-section (2) of section 67, the proper officer or an authorised officer shall make an order of seizure in FORM GST INS-02.\n\n(3) The proper officer or an authorised officer may entrust upon the owner or the custodian of goods, from whose custody such goods or things are seized, the custody of such goods or things for safe upkeep and the said person shall not remove, part with, or otherwise deal with the goods or things except with the previous permission of such officer.\n\n(4) Where it is not practicable to seize any such goods, the proper officer or the authorised officer may serve on the owner or the custodian of the goods, an order of prohibition in FORM GST INS-03 that he shall not remove, part with, or otherwise deal with the goods except with the previous permission of such officer.\n\n(5) The officer seizing the goods, documents, books or things shall prepare an inventory of such goods or documents or books or things containing, inter alia, description, quantity or unit, make, mark or model, where applicable, and get it signed by the person from whom such goods or documents or books or things are seized.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s67",
+      "text": "Section 67"
+    }
+  ]
+},
+    {
+  "id": "r140",
+  "number": "140",
+  "heading": "Bond and security for release of seized goods",
+  "content": "(1) The seized goods may be released on a provisional basis upon execution of a bond for the value of the goods in FORM GST INS-04 and furnishing of a security in the form of a bank guarantee equivalent to the amount of applicable tax, interest and penalty payable.\n\nExplanation. - For the purposes of the rules under the provisions of this Chapter, the \"applicable tax\" shall include central tax and State tax or central tax and the Union territory tax, as the case may be and the cess, if any, payable under the Goods and Services Tax (Compensation to States) Act, 2017 (15 of 2017).\n\n(2) In case the person to whom the goods were released provisionally fails to produce the goods at the appointed date and place indicated by the proper officer, the security shall be encashed and adjusted against the tax, interest and penalty and fine, if any, payable in respect of such goods.",
+  "references": []
+},
+    
+    
+    {
+  "id": "r141",
+  "number": "141",
+  "heading": "Procedure in respect of seized goods",
+  "content": "(1) Where the goods or things seized are of perishable or hazardous nature, and if the taxable person pays an amount equivalent to the market price of such goods or things or the amount of tax, interest and penalty that is or may become payable by the taxable person, whichever is lower, such goods or, as the case may be, things shall be released forthwith, by an order in FORM GST INS-05, on proof of payment.\n\n(2) Where the taxable person fails to pay the amount referred to in sub-rule (1) in respect of the said goods or things, the proper officer may dispose of such goods or things and the amount realized thereby shall be adjusted against the tax, interest, penalty, or any other amount payable in respect of such goods or things.",
+  "references": []
+},
+    {
+  "id": "r142",
+  "number": "142",
+  "heading": "Notice and order for demand of amounts payable under the Act",
+  "content": "(1) The proper officer shall serve, along with the\n(a) Notice issued under section 52 or section 73 or section 74 or section 74A or section 76 or section 122 or section 123 or section 124 or section 125 or section 127 or section 129 or section 130, a summary thereof electronically in FORM GST DRC-01,\n(b) statement under sub-section (3) of section 73 or sub-section (3) of section 74 or sub-section (3) of section 74A, a summary thereof electronically in FORM GST DRC-02, specifying therein the details of the amount payable.\n\n(1A) The proper officer may, before service of Notice to the person chargeable with tax, interest and penalty, under sub-section (1) of Section 73 or sub-section (1) of Section 74 or sub-section (1) of section 74A, as the case may be, communicate the details of any tax, interest and penalty as ascertained by the said officer, in Part A of FORM GST DRC-01A.\n\n(2) Where, before the service of Notice or statement, the person chargeable with tax makes payment of the tax and interest in accordance with the provisions of sub-section (5) of section 73 or clause (i) of sub-section (8) of section 74A, as the case may be, or tax, interest and penalty in accordance with the provisions of sub-section (5) of section 74 or clause (i) of sub-section (9) of section 74A, or where any person makes payment of tax, interest, penalty or any other amount due in accordance with the provisions of the Act whether on his own ascertainment or, as communicated by the proper officer under sub-rule (1A), he shall inform the proper officer of such payment in FORM GST DRC-03 and an acknowledgement, in FORM GST DRC-04 shall be made available to the person through the common portal electronically.\n\n(2A) Where the person referred to in sub-rule (1A) has made partial payment of the amount communicated to him or desires to file any submissions against the proposed liability, he may make such submission in Part B of FORM GST DRC-01A, and thereafter the proper officer may issue an intimation in Part-C of FORM GST DRC-01A, accepting the payment or the submissions or both, as the case may be, made by the said person.\n\n(2B) Where an amount of tax, interest, penalty or any other amount payable by a person under section 52 or section 73 or section 74 or section 74A or section 76 or section 122 or section 123 or section 124 or section 125 or section 127 or section 129 or section 130, has been paid by the said person through an intimation in FORM GST DRC-03 under sub-rule (2), instead of crediting the said amount in the electronic liability register in FORM GST PMT-01 against the debit entry created for the said demand, the said person may file an application in FORM GST DRC-03A electronically on the common portal, and the amount so paid and intimated through FORM GST DRC-03 shall be credited in Electronic Liability Register in FORM GST PMT-01 against the debit entry created for the said demand, as if the said payment was made towards the said demand on the date of such intimation made through FORM GST DRC-03:\n\nProvided that where an order in FORM GST DRC-05 has been issued in terms of sub-rule (3) concluding the proceedings, in respect of the payment of an amount in FORM GST DRC-03, an application in FORM GST DRC-03A cannot be filed by the said person in respect of the said payment.\n\n(3) Where the person chargeable with tax makes payment of tax and interest under sub-section (8) of section 73 or under clause (ii) of sub-section (8) of section 74A, as the case may be, or tax, interest and penalty under sub-section (8) of section 74 or under clause (ii) of sub-section (9) of section 74A, as the case may be, within the period specified therein, or where the person concerned makes payment of the amount referred to in sub-section (1) of section 129 within seven days of the notice issued under sub-section (3) of that Section but before the issuance of order under the said sub-section (3), he shall intimate the proper officer of such payment in FORM GST DRC-03 and the proper officer shall issue an intimation in FORM GST DRC-05 concluding the proceedings in respect of the said notice.\n\n(4) The representation referred to in sub-section (9) of section 73 or sub-section (9) of section 74 or sub-section (6) of section 74A or sub-section (3) of section 76 or the reply to any Notice issued under any section whose summary has been uploaded electronically in FORM GST DRC-01 under sub-rule (1) shall be furnished in FORM GST DRC-06.\n\n(5) A summary of the order issued under section 52 or section 62 or section 63 or section 64 or section 73 or section 74 or section 74A or section 75 or section 76 or section 122 or section 123 or section 124 or section 125 or section 127 or section 129 or section 130 shall be uploaded electronically in FORM GST DRC-07, specifying therein the amount of tax, interest and penalty, as the case may be, payable by the person concerned.\n\n(6) The order referred to in sub-rule (5) shall be treated as the Notice for recovery.\n\n(7) Where a rectification of the order has been passed in accordance with the provisions of section 161 or where an order uploaded on the system has been withdrawn, a summary of the rectification order or of the withdrawal order shall be uploaded electronically by the proper officer in FORM GST DRC-08.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s52",
+      "text": "Section 52"
+    },
+    {
+      "type": "section",
+      "id": "s73",
+      "text": "Section 73"
+    },
+    {
+      "type": "section",
+      "id": "s74",
+      "text": "Section 74"
+    },
+    {
+      "type": "section",
+      "id": "s74A",
+      "text": "Section 74A"
+    },
+    {
+      "type": "section",
+      "id": "s76",
+      "text": "Section 76"
+    },
+    {
+      "type": "section",
+      "id": "s122",
+      "text": "Section 122"
+    },
+    {
+      "type": "section",
+      "id": "s123",
+      "text": "Section 123"
+    },
+    {
+      "type": "section",
+      "id": "s124",
+      "text": "Section 124"
+    },
+    {
+      "type": "section",
+      "id": "s125",
+      "text": "Section 125"
+    },
+    {
+      "type": "section",
+      "id": "s127",
+      "text": "Section 127"
+    },
+    {
+      "type": "section",
+      "id": "s129",
+      "text": "Section 129"
+    },
+    {
+      "type": "section",
+      "id": "s130",
+      "text": "Section 130"
+    },
+    {
+      "type": "section",
+      "id": "s62",
+      "text": "Section 62"
+    },
+    {
+      "type": "section",
+      "id": "s63",
+      "text": "Section 63"
+    },
+    {
+      "type": "section",
+      "id": "s64",
+      "text": "Section 64"
+    },
+    {
+      "type": "section",
+      "id": "s75",
+      "text": "Section 75"
+    },
+    {
+      "type": "section",
+      "id": "s161",
+      "text": "Section 161"
+    }
+  ]
+},
+    {
+  "id": "r142A",
+  "number": "142A",
+  "heading": "Procedure for recovery of dues under existing laws",
+  "content": "(1) A summary of order issued under any of the existing laws creating demand of tax, interest, penalty, fee or any other dues which becomes recoverable consequent to proceedings launched under the existing law before, on or after the appointed day shall, unless recovered under that law, be recovered under the Act and may be uploaded in FORM GST DRC-07A electronically on the common portal for recovery under the Act and the demand of the order shall be posted in Part II of Electronic Liability Register in FORM GST PMT-01.\n\n(2) Where the demand of an order uploaded under sub-rule (1) is rectified or modified or quashed in any proceedings, including in appeal, review or revision, or the recovery is made under the existing laws, a summary thereof shall be uploaded on the common portal in FORM DRC-08A and Part II of Electronic Liability Register in FORM GST PMT-01 shall be updated accordingly.",
+  "references": []
+},
+{
+  "id": "r142B",
+  "number": "142B",
+  "heading": "Intimation of certain amounts liable to be recovered under section 79 of the Act",
+  "content": "(1) Where, in accordance with section 75 read with rule 88C, or otherwise, any amount of tax or interest has become recoverable under section 79 and the same has remained unpaid, the proper officer shall intimate, electronically on the common portal, the details of the said amount in FORM GST DRC-01D, directing the person in default to pay the said amount, along with applicable interest, or, as the case may be, the amount of interest, within seven days of the date of the said intimation and the said amount shall be posted in Part-II of Electronic Liability Register in FORM GST PMT-01.\n\n(2) The intimation referred to in sub-rule (1) shall be treated as the notice for recovery.\n\n(3) Where any amount of tax or interest specified in the intimation referred to in sub-rule (1) remains unpaid on the expiry of the period specified in the said intimation, the proper officer shall proceed to recover the amount that remains unpaid in accordance with the provisions of rule 143 or rule 144 or rule 145 or rule 146 or rule 147 or rule 155 or rule 156 or rule 157 or rule 160.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s75",
+      "text": "Section 75"
+    },
+    {
+      "type": "section",
+      "id": "s79",
+      "text": "Section 79"
+    },
+    {
+      "type": "rule",
+      "id": "r88C",
+      "text": "Rule 88C"
+    },
+    {
+      "type": "rule",
+      "id": "r143",
+      "text": "Rule 143"
+    },
+    {
+      "type": "rule",
+      "id": "r144",
+      "text": "Rule 144"
+    },
+    {
+      "type": "rule",
+      "id": "r145",
+      "text": "Rule 145"
+    },
+    {
+      "type": "rule",
+      "id": "r146",
+      "text": "Rule 146"
+    },
+    {
+      "type": "rule",
+      "id": "r147",
+      "text": "Rule 147"
+    },
+    {
+      "type": "rule",
+      "id": "r155",
+      "text": "Rule 155"
+    },
+    {
+      "type": "rule",
+      "id": "r156",
+      "text": "Rule 156"
+    },
+    {
+      "type": "rule",
+      "id": "r157",
+      "text": "Rule 157"
+    },
+    {
+      "type": "rule",
+      "id": "r160",
+      "text": "Rule 160"
+    }
+  ]
+},
+{
+  "id": "r143",
+  "number": "143",
+  "heading": "Recovery by deduction from any money owed",
+  "content": "Where any amount payable by a person (hereafter referred to in this rule as \"the defaulter\") to the Government under any of the provisions of the Act or the rules made thereunder is not paid, the proper officer may require, in FORM GST DRC-09, a specified officer to deduct the amount from any money owing to such defaulter in accordance with the provisions of clause (a) of sub-section (1) of section 79.\n\nExplanation.- For the purposes of this rule, \"specified officer\" shall mean any officer of the Central Government or a State Government or the Government of a Union territory or a local authority, or of a Board or Corporation or a company owned or controlled, wholly or partly, by the Central Government or a State Government or the Government of a Union territory or a local authority.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s79",
+      "text": "Section 79"
+    }
+  ]
+},
+{
+  "id": "r144",
+  "number": "144",
+  "heading": "Recovery by sale of goods under the control of proper officer",
+  "content": "(1) Where any amount due from a defaulter is to be recovered by selling goods belonging to such person in accordance with the provisions of clause (b) of sub-section (1) of section 79, the proper officer shall prepare an inventory and estimate the market value of such goods and proceed to sell only so much of the goods as may be required for recovering the amount payable along with the administrative expenditure incurred on the recovery process.\n\n(2) The said goods shall be sold through a process of auction, including e-auction, for which a Notice shall be issued in FORM GST DRC-10 clearly indicating the goods to be sold and the purpose of sale.\n\n(3) The last day for submission of bid or the date of auction shall not be earlier than fifteen days from the date of issue of the Notice referred to in sub-rule (2):\n\nProvided that where the goods are of perishable or hazardous nature or where the expenses of keeping them in custody are likely to exceed their value, the proper officer may sell them forthwith.\n\n(4) The proper officer may specify the amount of pre-bid deposit to be furnished in the manner specified by such officer, to make the bidders eligible to participate in the auction, which may be returned to the unsuccessful bidders, forfeited in case the successful bidder fails to make the payment of the full amount, as the case may be.\n\n(5) The proper officer shall issue a Notice to the successful bidder in FORM GST DRC-11 requiring him to make the payment within a period of fifteen days from the date of auction. On payment of the full bid amount, the proper officer shall transfer the possession of the said goods to the successful bidder and issue a certificate in FORM GST DRC-12.\n\n(6) Where the defaulter pays the amount under recovery, including any expenses incurred on the process of recovery, before the issue of the Notice under sub-rule (2), the proper officer shall cancel the process of auction and release the goods.\n\n(7) The proper officer shall cancel the process and proceed for re-auction where no bid is received or the auction is considered to be non-competitive due to lack of adequate participation or due to low bids.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s79",
+      "text": "Section 79"
+    }
+  ]
+},
+{
+  "id": "r144A",
+  "number": "144A",
+  "heading": "Recovery of penalty by sale of goods or conveyance detained or seized in transit",
+  "content": "(1) Where the person transporting any goods or the owner of such goods fails to pay the amount of penalty under sub-section (1) of section 129 within fifteen days from the date of receipt of the copy of the order passed under sub-section (3) of the said section 129, the proper officer shall proceed for sale or disposal of the goods or conveyance so detained or seized by preparing an inventory and estimating the market value of such goods or conveyance:\n\nProvided that where the detained or seized goods are perishable or hazardous in nature or are likely to depreciate in value with passage of time, the said period of fifteen days may be reduced by the proper officer.\n\n(2) The said goods or conveyance shall be sold through a process of auction, including e-auction, for which a notice shall be issued in FORM GST DRC-10 clearly indicating the goods or conveyance to be sold and the purpose of sale:\n\nProvided that where the person transporting said goods or the owner of such goods pays the amount of penalty under sub-section (1) of section 129, including any expenses incurred in safe custody and handling of such goods or conveyance, after the time period mentioned in sub-rule (1) but before the issuance of notice under this sub-rule, the proper officer shall cancel the process of auction and release such goods or conveyance.\n\n(3) The last day for submission of bid or the date of auction shall not be earlier than fifteen days from the date of issue of the notice referred to in sub-rule (2):\n\nProvided that where the detained or seized goods are perishable or hazardous in nature or are likely to depreciate in value with passage of time, the said period of fifteen days may be reduced by the proper officer.\n\n(4) The proper officer may specify the amount of pre-bid deposit to be furnished in the manner specified by such officer, to make the bidders eligible to participate in the auction, which may be returned to the unsuccessful bidders, forfeited in case the successful bidder fails to make the payment of the full amount, as the case may be.\n\n(5) The proper officer shall issue a notice to the successful bidder in FORM GST DRC-11 requiring him to make the payment within a period of fifteen days from the date of auction:\n\nProvided that where the detained or seized goods are perishable or hazardous in nature or are likely to depreciate in value with passage of time, the said period of fifteen days may be reduced by the proper officer.\n\n(6) On payment of the full bid amount, the proper officer shall transfer the possession and ownership of the said goods or conveyance to the successful bidder and issue a certificate in FORM GST DRC-12.\n\n(7) The proper officer shall cancel the process and proceed for re-auction where no bid is received or the auction is considered to be non-competitive due to lack of adequate participation or due to low bids.\n\n(8) Where an appeal has been filed by the person under the provisions of sub-section (1) read with sub-section (6) of section 107, the proceedings for recovery of penalty by sale of goods or conveyance detained or seized in transit under this rule shall be deemed to be stayed:\n\nProvided that this sub-rule shall not be applicable in respect of goods of perishable or hazardous nature.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s129",
+      "text": "Section 129"
+    },
+    {
+      "type": "section",
+      "id": "s107",
+      "text": "Section 107"
+    }
+  ]
+},
+{
+  "id": "r145",
+  "number": "145",
+  "heading": "Recovery from a third person",
+  "content": "(1) The proper officer may serve upon a person referred to in clause (c) of sub-section (1) of section 79 (hereafter referred to in this rule as \"the third person\"), a Notice in FORM GST DRC-13 directing him to deposit the amount specified in the Notice.\n\n(2) Where the third person makes the payment of the amount specified in the Notice issued under sub-rule (1), the proper officer shall issue a certificate in FORM GST DRC-14 to the third person clearly indicating the details of the liability so discharged.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s79",
+      "text": "Section 79"
+    }
+  ]
+},
+{
+  "id": "r146",
+  "number": "146",
+  "heading": "Recovery through execution of a decree, etc.",
+  "content": "Where any amount is payable to the defaulter in the execution of a decree of a civil court for the payment of money or for sale in the enforcement of a mortgage or charge, the proper officer shall send a request in FORM GST DRC-15 to the said court and the court shall, subject to the provisions of the Code of Civil Procedure, 1908 (5 of 1908), execute the attached decree, and credit the net proceeds for settlement of the amount recoverable.",
+  "references": []
+},
+{
+  "id": "r147",
+  "number": "147",
+  "heading": "Recovery by sale of movable or immovable property",
+  "content": "(1) The proper officer shall prepare a list of movable and immovable property belonging to the defaulter, estimate their value as per the prevalent market price and issue an order of attachment or distraint and a Notice for sale in FORM GST DRC-16 prohibiting any transaction with regard to such movable and immovable property as may be required for the recovery of the amount due:\n\nProvided that the attachment of any property in a debt not secured by a negotiable instrument, a share in a corporation, or other movable property not in the possession of the defaulter except for property deposited in, or in the custody of any Court, shall be attached in the manner provided in rule 151.\n\n(2) The proper officer shall send a copy of the order of attachment or distraint to the concerned Revenue Authority or Transport Authority or any such Authority to place encumbrance on the said movable or immovable property, which shall be removed only on the written instructions from the proper officer to that effect.\n\n(3) Where the property subject to the attachment or distraint under sub-rule (1) is -\n(a) an immovable property, the order of attachment or distraint shall be affixed on the said property and shall remain affixed till the confirmation of sale;\n(b) a movable property, the proper officer shall seize the said property in accordance with the provisions of Chapter XIV of the Act and the custody of the said property shall either be taken by the proper officer himself or an officer authorised by him.\n\n(4) The property attached or distrained shall be sold through auction, including e-auction, for which a Notice shall be issued in FORM GST DRC-17 clearly indicating the property to be sold and the purpose of sale.\n\n(5) Notwithstanding anything contained in the provision of this Chapter, where the property to be sold is a negotiable instrument or a share in a corporation, the proper officer may, instead of selling it by public auction, sell such instrument or a share through a broker and the said broker shall deposit to the Government so much of the proceeds of such sale, reduced by his commission, as may be required for the discharge of the amount under recovery and pay the amount remaining, if any, to the owner of such instrument or a share.\n\n(6) The proper officer may specify the amount of pre-bid deposit to be furnished in the manner specified by such officer, to make the bidders eligible to participate in the auction, which may be returned to the unsuccessful bidders or, forfeited in case the successful bidder fails to make the payment of the full amount, as the case may be.\n\n(7) The last day for the submission of the bid or the date of the auction shall not be earlier than fifteen days from the date of issue of the Notice referred to in sub-rule (4):\n\nProvided that where the goods are of perishable or hazardous nature or where the expenses of keeping them in custody are likely to exceed their value, the proper officer may sell them forthwith.\n\n(8) Where any claim is preferred or any objection is raised with regard to the attachment or distraint of any property on the ground that such property is not liable to such attachment or distraint, the proper officer shall investigate the claim or objection and may postpone the sale for such time as he may deem fit.\n\n(9) The person making the claim or objection must adduce evidence to show that on the date of the order issued under sub-rule (1) he had some interest in, or was in possession of, the property in question under attachment or distraint.\n\n(10) Where, upon investigation, the proper officer is satisfied that, for the reason stated in the claim or objection, such property was not, on the said date, in the possession of the defaulter or of any other person on his behalf or that, being in the possession of the defaulter on the said date, it was in his possession, not on his own account or as his own property, but on account of or in trust for any other person, or partly on his own account and partly on account of some other person, the proper officer shall make an order releasing the property, wholly or to such extent as he thinks fit, from attachment or distraint.\n\n(11) Where the proper officer is satisfied that the property was, on the said date, in the possession of the defaulter as his own property and not on account of any other person, or was in the possession of some other person in trust for him, or in the occupancy of a tenant or other person paying rent to him, the proper officer shall reject the claim and proceed with the process of sale through auction.\n\n(12) The proper officer shall issue a Notice to the successful bidder in FORM GST DRC-11 requiring him to make the payment within a period of fifteen days from the date of such Notice and after the said payment is made, he shall issue a certificate in FORM GST DRC-12 specifying the details of the property, date of transfer, the details of the bidder and the amount paid and upon issuance of such certificate, the rights, title and interest in the property shall be deemed to be transferred to such bidder:\n\nProvided that where the highest bid is made by more than one person and one of them is a co-owner of the property, he shall be deemed to be the successful bidder.\n\n(13) Any amount, including stamp duty, tax or fee payable in respect of the transfer of the property specified in sub-rule (12), shall be paid to the Government by the person to whom the title in such property is transferred.\n\n(14) Where the defaulter pays the amount under recovery, including any expenses incurred on the process of recovery, before the issue of the notice under sub-rule (4), the proper officer shall cancel the process of auction and release the goods.\n\n(15) The proper officer shall cancel the process and proceed for re-auction where no bid is received or the auction is considered to be non-competitive due to lack of adequate participation or due to low bids.",
+  "references": [
+    {
+      "type": "rule",
+      "id": "r151",
+      "text": "Rule 151"
+    }
+  ]
+},
+{
+  "id": "r148",
+  "number": "148",
+  "heading": "Prohibition against bidding or purchase by officer",
+  "content": "No officer or other person having any duty to perform in connection with any sale under the provisions of this Chapter shall, either directly or indirectly, bid for, acquire or attempt to acquire any interest in the property sold.",
+  "references": []
+},
+{
+  "id": "r149",
+  "number": "149",
+  "heading": "Prohibition against sale on holidays",
+  "content": "No sale under the rules under the provisions of this chapter shall take place on a Sunday or other general holidays recognized by the Government or on any day which has been notified by the Government to be a holiday for the area in which the sale is to take place.",
+  "references": []
+},
+    {
+  "id": "r150",
+  "number": "150",
+  "heading": "Assistance by police",
+  "content": "The proper officer may seek such assistance from the officer-in-charge of the jurisdictional police station as may be necessary in the discharge of his duties and the said officer-in-charge shall depute sufficient number of police officers for providing such assistance.",
+  "references": []
+},
+    {
+  "id": "r151",
+  "number": "151",
+  "heading": "Attachment of debts and shares, etc.",
+  "content": "(1) A debt not secured by a negotiable instrument, a share in a corporation, or other movable property not in the possession of the defaulter except for property deposited in, or in the custody of any court shall be attached by a written order in FORM GST DRC-16 prohibiting:-\n(a) in the case of a debt, the creditor from recovering the debt and the debtor from making payment thereof until the receipt of a further order from the proper officer;\n(b) in the case of a share, the person in whose name the share may be standing from transferring the same or receiving any dividend thereon;\n(c) in the case of any other movable property, the person in possession of the same from giving it to the defaulter.\n\n(2) A copy of such order shall be affixed on some conspicuous part of the office of the proper officer, and another copy shall be sent, in the case of debt, to the debtor, and in the case of shares, to the registered address of the corporation and in the case of other movable property, to the person in possession of the same.\n\n(3) A debtor, prohibited under clause (a) of sub-rule (1), may pay the amount of his debt to the proper officer, and such payment shall be deemed as paid to the defaulter.",
+  "references": []
+},
+{
+  "id": "r152",
+  "number": "152",
+  "heading": "Attachment of property in custody of courts or Public Officer",
+  "content": "Where the property to be attached is in the custody of any court or Public Officer, the proper officer shall send the order of attachment to such court or officer, requesting that such property, and any interest or dividend becoming payable thereon, may be held till the recovery of the amount payable.",
+  "references": []
+},
+    {
+  "id": "r153",
+  "number": "153",
+  "heading": "Attachment of interest in partnership",
+  "content": "(1) Where the property to be attached consists of an interest of the defaulter, being a partner, in the partnership property, the proper officer may make an order charging the share of such partner in the partnership property and profits with payment of the amount due under the certificate, and may, by the same or subsequent order, appoint a receiver of the share of such partner in the profits, whether already declared or accruing, and of any other money which may become due to him in respect of the partnership, and direct accounts and enquiries and make an order for the sale of such interest or such other order as the circumstances of the case may require.\n\n(2) The other partners shall be at liberty at any time to redeem the interest charged or, in the case of a sale being directed, to purchase the same.",
+  "references": []
+},
+    {
+  "id": "r154",
+  "number": "154",
+  "heading": "Disposal of proceeds of sale of goods or conveyance and movable or immovable property",
+  "content": "(1) The amounts so realised from the sale of goods or conveyance, movable or immovable property, for the recovery of dues from a defaulter or for recovery of penalty payable under sub-section (3) of section 129 shall,-\n(a) first, be appropriated against the administrative cost of the recovery process;\n(b) next, be appropriated against the amount to be recovered or to the payment of the penalty payable under sub-section (3) of section 129, as the case may be;\n(c) next, be appropriated against any other amount due from the defaulter under the Act or the Integrated Goods and Services Tax Act, 2017 or the Union Territory Goods and Services Tax Act, 2017 or any of the State Goods and Services Tax Act, 2017 and the rules made thereunder; and\n(d) the balance, if any, shall be credited to the electronic cash ledger of the owner of the goods or conveyance as the case may be, in case the person is registered under the Act, and where the said person is not required to be registered under the Act, the said amount shall be credited to the bank account of the person concerned.\n\n(2) Where it is not possible to pay the balance of sale proceeds, as per clause (d) of sub-rule (1), to the person concerned within a period of six months from the date of sale of such goods or conveyance or such further period as the proper officer may allow, such balance of sale proceeds shall be deposited with the Fund.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s129",
+      "text": "Section 129"
+    }
+  ]
+},
+    {
+  "id": "r155",
+  "number": "155",
+  "heading": "Recovery through land revenue authority",
+  "content": "Where an amount is to be recovered in accordance with the provisions of clause (e) of sub-section (1) of section 79, the proper officer shall send a certificate to the Collector or Deputy Commissioner of the district or any other officer authorised in this behalf in FORM GST DRC-18 to recover from the person concerned, the amount specified in the certificate as if it were an arrear of land revenue.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s79",
+      "text": "Section 79"
+    }
+  ]
+},
+{
+  "id": "r156",
+  "number": "156",
+  "heading": "Recovery through court",
+  "content": "Where an amount is to be recovered as if it were a fine imposed under the Code of Criminal Procedure, 1973, the proper officer shall make an application before the appropriate Magistrate in accordance with the provisions of clause (f) of sub-section (1) of section 79 in FORM GST DRC-19 to recover from the person concerned, the amount specified thereunder as if it were a fine imposed by him.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s79",
+      "text": "Section 79"
+    }
+  ]
+},
+{
+  "id": "r157",
+  "number": "157",
+  "heading": "Recovery from surety",
+  "content": "Where any person has become surety for the amount due by the defaulter, he may be proceeded against under this Chapter as if he were the defaulter.",
+  "references": []
+},
+    {
+  "id": "r158",
+  "number": "158",
+  "heading": "Payment of tax and other amounts in instalments",
+  "content": "(1) On an application filed electronically by a taxable person, in FORM GST DRC-20, seeking extension of time for the payment of taxes or any amount due under the Act or for allowing payment of such taxes or amount in instalments in accordance with the provisions of section 80, the Commissioner shall call for a report from the jurisdictional officer about the financial ability of the taxable person to pay the said amount.\n\n(2) Upon consideration of the request of the taxable person and the report of the jurisdictional officer, the Commissioner may issue an order in FORM GST DRC-21 allowing the taxable person further time to make payment and/or to pay the amount in such monthly instalments, not exceeding twenty-four, as he may deem fit.\n\n(3) The facility referred to in sub-rule (2) shall not be allowed where-\n(a) the taxable person has already defaulted on the payment of any amount under the Act or the Integrated Goods and Services Tax Act, 2017 or the Union Territory Goods and Services Tax Act, 2017 or any of the State Goods and Services Tax Act, 2017, for which the recovery process is on;\n(b) the taxable person has not been allowed to make payment in instalments in the preceding financial year under the Act or the Integrated Goods and Services Tax Act, 2017 or the Union Territory Goods and Services Tax Act, 2017 or any of the State Goods and Services Tax Act, 2017;\n(c) the amount for which instalment facility is sought is less than twenty-five thousand rupees.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s80",
+      "text": "Section 80"
+    }
+  ]
+},
+    {
+  "id": "r159",
+  "number": "159",
+  "heading": "Provisional attachment of property",
+  "content": "(1) Where the Commissioner decides to attach any property, including bank account in accordance with the provisions of section 83, he shall pass an order in FORM GST DRC-22 to that effect mentioning therein, the details of property which is attached.\n\n(2) The Commissioner shall send a copy of the order of attachment in FORM GST DRC-22 to the concerned Revenue Authority or Transport Authority or any such Authority to place encumbrance on the said movable or immovable property, which shall be removed only on the written instructions from the Commissioner to that effect or on expiry of a period of one year from the date of issuance of order under sub-rule (1), whichever is earlier.\n\n(3) Where the property attached is of perishable or hazardous nature, and if the person, whose property has been attached pays an amount equivalent to the market price of such property or the amount that is or may become payable by such person, whichever is lower, then such property shall be released forthwith, by an order in FORM GST DRC-23, on proof of payment.\n\n(4) Where such person fails to pay the amount referred to in sub-rule (3) in respect of the said property of perishable or hazardous nature, the Commissioner may dispose of such property and the amount realized thereby shall be adjusted against the tax, interest, penalty, fee or any other amount payable such person.\n\n(5) Any person whose property is attached may file an objection in FORM GST DRC-22A to the effect that the property attached was or is not liable to attachment, and the Commissioner may, after affording an opportunity of being heard to the person filing the objection, release the said property by an order in FORM GST DRC-23.\n\n(6) The Commissioner may, upon being satisfied that the property was, or is no longer liable for attachment, release such property by issuing an order in FORM GST DRC-23.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s83",
+      "text": "Section 83"
+    }
+  ]
+},
+    {
+  "id": "r160",
+  "number": "160",
+  "heading": "Recovery from company in liquidation",
+  "content": "Where the company is under liquidation as specified in section 88, the Commissioner shall notify the liquidator for the recovery of any amount representing tax, interest, penalty or any other amount due under the Act in FORM GST DRC-24.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s88",
+      "text": "Section 88"
+    }
+  ]
+},
+    {
+  "id": "r161",
+  "number": "161",
+  "heading": "Continuation of certain recovery proceedings",
+  "content": "The intimation or notice for the reduction or enhancement of any demand under section 84 shall be issued in FORM GST DRC-25.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s84",
+      "text": "Section 84"
+    }
+  ]
+},
+    {
+  "id": "r162",
+  "number": "162",
+  "heading": "Procedure for compounding of offences",
+  "content": "(1) An applicant may, either before or after the institution of prosecution, make an application under sub-section (1) of section 138 in FORM GST CPD-01 to the Commissioner for compounding of an offence.\n\n(2) On receipt of the application, the Commissioner shall call for a report from the concerned officer with reference to the particulars furnished in the application, or any other information, which may be considered relevant for the examination of such application.\n\n(3) The Commissioner, after taking into account the contents of the said application, may, by order in FORM GST CPD-02, on being satisfied that the applicant has made full and true disclosure of facts relating to the case, allow the application indicating the compounding amount and grant him immunity from prosecution or reject such application within ninety days of the receipt of the application.\n\n(3A) The Commissioner shall determine the compounding amount under sub-rule (3) as per the Table below:-\n\n<table border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%; font-size: 14px;\">\n  <thead>\n    <tr style=\"background-color: #f2f2f2;\">\n      <th style=\"border: 1px solid #ddd; padding: 8px; text-align: center;\">S.No</th>\n      <th style=\"border: 1px solid #ddd; padding: 8px; text-align: center;\">Offence</th>\n      <th style=\"border: 1px solid #ddd; padding: 8px; text-align: center;\">Compounding amount if offence is punishable under clause (i) of sub-section (1) of section 132</th>\n      <th style=\"border: 1px solid #ddd; padding: 8px; text-align: center;\">Compounding amount if offence is punishable under clause (ii) of sub-section (1) of section 132</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td style=\"border: 1px solid #ddd; padding: 8px; text-align: center;\">1</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Offence specified in clause (a) of sub-section (1) of section 132 of the Act</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Up to seventy-five per cent of the amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken, subject to minimum of fifty per cent of such amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken.</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Up to sixty per cent of the amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken, subject to minimum of forty per cent of such amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken.</td>\n    </tr>\n    <tr>\n      <td style=\"border: 1px solid #ddd; padding: 8px; text-align: center;\">2</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Offence specified in clause (c) of sub-section (1) of section 132 of the Act</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Up to seventy-five per cent of the amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken, subject to minimum of fifty per cent of such amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken.</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Up to sixty per cent of the amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken, subject to minimum of forty per cent of such amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken.</td>\n    </tr>\n    <tr>\n      <td style=\"border: 1px solid #ddd; padding: 8px; text-align: center;\">3</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Offence specified in clause (d) of sub-section (1) of section 132 of the Act</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Up to seventy-five per cent of the amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken, subject to minimum of fifty per cent of such amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken.</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Up to sixty per cent of the amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken, subject to minimum of forty per cent of such amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken.</td>\n    </tr>\n    <tr>\n      <td style=\"border: 1px solid #ddd; padding: 8px; text-align: center;\">4</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Offence specified in clause (e) of sub-section (1) of section 132 of the Act</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Up to seventy-five per cent of the amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken, subject to minimum of fifty per cent of such amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken.</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Up to sixty per cent of the amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken, subject to minimum of forty per cent of such amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken.</td>\n    </tr>\n    <tr>\n      <td style=\"border: 1px solid #ddd; padding: 8px; text-align: center;\">5</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Offence specified in clause (f) of sub-section (1) of section 132 of the Act</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Amount equivalent to twenty-five per cent of tax evaded.</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Amount equivalent to twenty-five per cent of tax evaded.</td>\n    </tr>\n    <tr>\n      <td style=\"border: 1px solid #ddd; padding: 8px; text-align: center;\">6</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Offence specified in clause (h) of sub-section (1) of section 132 of the Act</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Up to seventy-five per cent of the amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken, subject to minimum of fifty per cent of such amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken.</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Up to sixty per cent of the amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken, subject to minimum of forty per cent of such amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken.</td>\n    </tr>\n    <tr>\n      <td style=\"border: 1px solid #ddd; padding: 8px; text-align: center;\">7</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Offence specified in clause (i) of sub-section (1) of section 132 of the Act</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Up to seventy-five per cent of the amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken, subject to minimum of fifty per cent of such amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken.</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Up to sixty per cent of the amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken, subject to minimum of forty per cent of such amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken.</td>\n    </tr>\n    <tr>\n      <td style=\"border: 1px solid #ddd; padding: 8px; text-align: center;\">8</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Attempt to commit the offences or abets the commission of offences mentioned in clause (a), (c) to (f) and clauses (h) and (i) of sub-section (1) of section 132 of the Act</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Amount equivalent to twenty-five per cent of such amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken.</td>\n      <td style=\"border: 1px solid #ddd; padding: 8px;\">Amount equivalent to twenty-five per cent of such amount of tax evaded or the amount of input tax credit wrongly availed or utilised or the amount of refund wrongly taken.</td>\n    </tr>\n  </tbody>\n</table>\n\nProvided that where the offence committed by the person falls under more than one category specified in the Table above, the compounding amount, in such case, shall be the amount determined for the offence for which higher compounding amount has been prescribed.\n\n(4) The application shall not be decided under sub-rule (3) without affording an opportunity of being heard to the applicant and recording the grounds of such rejection.\n\n(5) The application shall not be allowed unless the tax, interest and penalty liable to be paid have been paid in the case for which the application has been made.\n\n(6) The applicant shall, within a period of thirty days from the date of the receipt of the order under sub-rule (3), pay the compounding amount as ordered by the Commissioner and shall furnish the proof of such payment to him.\n\n(7) In case the applicant fails to pay the compounding amount within the time specified in sub-rule (6), the order made under sub-rule (3) shall be vitiated and be void.\n\n(8) Immunity granted to a person under sub-rule (3) may, at any time, be withdrawn by the Commissioner, if he is satisfied that such person had, in the course of the compounding proceedings, concealed any material particulars or had given false evidence. Thereupon such person may be tried for the offence with respect to which immunity was granted or for any other offence that appears to have been committed by him in connection with the compounding proceedings and the provisions the Act shall apply as if no such immunity had been granted.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s138",
+      "text": "Section 138"
+    },
+    {
+      "type": "section",
+      "id": "s132",
+      "text": "Section 132"
+    }
+  ]
+},
+    {
+  "id": "r163",
+  "number": "163",
+  "heading": "Consent based sharing of information",
+  "content": "(1) Where a registered person opts to share the information furnished in—\n(a) FORM GST REG-01 as amended from time to time;\n(b) return in FORM GSTR-3B for certain tax periods;\n(c) FORM GSTR-1, as amended in FORM GSTR-1A if any, for certain tax periods, pertaining to invoices, debit notes and credit notes issued by him, as amended from time to time,\nwith a system referred to in sub-section (1) of section 158A (hereinafter referred to as \"requesting system\"), the requesting system shall obtain the consent of the said registered person for sharing of such information and shall communicate the consent along with the details of the tax periods, where applicable, to the common portal.\n\n(2) The registered person shall give his consent for sharing of information under clause (c) of sub-rule (1) only after he has obtained the consent of all the recipients, to whom he has issued the invoice, credit notes and debit notes during the said tax periods, for sharing such information with the requesting system and where he provides his consent, the consent of such recipients shall be deemed to have been obtained.\n\n(3) The common portal shall communicate the information referred to in sub-rule (1) with the requesting system on receipt from the said system-\n(a) the consent of the said registered person, and\n(b) the details of the tax periods or the recipients, as the case may be, in respect of which the information is required.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s158A",
+      "text": "Section 158A"
+    }
+  ]
+},
+    {
+  "id": "r164",
+  "number": "164",
+  "heading": "Procedure and conditions for closure of proceedings under section 128A in respect of demands issued under section 73",
+  "content": "(1) Any person who is eligible for waiver of interest, or penalty, or both in respect of a notice or a statement mentioned in clause (a) of sub-section (1) of section 128A, may file an application electronically in FORM GST SPL-01 on the common portal, providing the details of the said notice or the statement, as the case may be, along with the details of the payments made in FORM GST DRC-03 towards the tax demanded.\n\n(2) Any person who is eligible for waiver of interest, or penalty, or both, in respect of orders mentioned in clauses (b) and (c) of sub-section (1) of section 128A, may file an application electronically in FORM GST SPL-02 on the common portal, providing the details of the said order, along with the details of the payments made towards the tax demanded:\n\nProvided that the payment towards such tax demanded shall be made only by crediting the amount in the electronic liability register against the debit entry created by the said order:\n\nProvided further that if the payment towards such tax demanded has been made through FORM GST DRC-03, an application in FORM GST DRC-03A, as prescribed in sub-rule (2B) of rule 142, shall be filed by the said person for credit of the said amount in the Electronic Liability Register against the debit entry created for the said demand, before filing the application in FORM GST SPL-02.\n\n(3) Where the notice or statement or order mentioned in sub-section (1) of section 128A includes demand of tax, partially on account of erroneous refund and partially for other reasons, an application under sub-rule (1) or sub-rule (2) may be filed only after payment of the full amount of tax demanded in the said notice or statement or order, on or before the date notified under the said sub-section.\n\n(4) Where the notice or statement or order mentioned in sub-section (1) of section 128A includes demand of tax, partially for the period mentioned in the said sub-section and partially for the period other than that mentioned in the said sub-section, an application under sub-rule (1) or sub-rule (2) may be filed only after payment of the full amount of tax related to period mentioned in the said sub-section and demanded in the said notice or statement or order, on or before the date notified under the said sub-section.\nExplanation. - No refund shall be available for any tax, interest, and penalty, which has already been discharged for the entire period, prior to the commencement of the Central Goods and Services Tax (Second Amendment) Rules, 2025, in cases where a notice or statement or order mentioned in sub-section (1) of section 128A, includes a demand of tax, partially for the period mentioned in the said sub-section and partially for a period other than mentioned in the said sub-section.\n\n(5) The amount payable under sub-rule (1) or sub-rule (2) shall be the amount that remains payable, after deducting the amount not payable in accordance with sub-section (5) or sub-section (6) of section 16, from the amount payable in terms of the notice or statement or order under section 73, as the case may be.\n\n(6) Any person who wishes to file an application under sub-rule (1) or sub-rule (2), may do so within a period of three months from the date notified under sub-section (1) of section 128A:\n\nProvided that where an application in FORM GST SPL-02 is to be filed in cases referred to in the first proviso to sub-section (1) of section 128A, the time limit for filing the said application shall be six months from the date of communication of the order of the proper officer redetermining such tax under section 73.\n\n(7) The application under sub-rule (1) or sub-rule (2) shall be accompanied by documents evidencing withdrawal of appeal or writ petition, if any, filed before any Appellate Authority, or Tribunal or Court, as the case may be, to establish that the applicant is eligible for the waiver of interest or penalty or both, in terms of section 128A:\n\nProvided that where the applicant has filed an application for withdrawal of an appeal or writ petition filed before the Appellate Authority or Appellate Tribunal or a court, as the case may be, but the order for withdrawal has not been issued by the concerned authority till the date of filing of the application under sub-rule (1) or sub-rule (2), the applicant shall upload the copy of such application or document filed for withdrawal of the said appeal or writ petition along with the application under sub-rule (1) or sub-rule (2), and shall upload the copy of the order for withdrawal of the said appeal or writ petition on the common portal, within one month of the issuance of the said order for withdrawal by the concerned authority.\n\nProvided further that where the notice or statement or order mentioned in sub-section (1) of section 128A of the Act includes demand of tax, partially for the period mentioned in the said sub-section and partially for the period other than that mentioned in the said sub-section, the applicant instead of withdrawing the appeal, shall intimate the appellate authority or Appellate Tribunal that he does not wish to pursue the appeal for the period mentioned in the said sub-section and the relevant authority shall, after taking note of the said request, pass such order for the period other than that mentioned in the said sub-section, as he thinks just and proper.\nExplanation. – For the removal of doubt, it is clarified that the appeal application shall be deemed to have been withdrawn to the extent of the said intimation for the period from the 1st July, 2017 to the 31st March, 2020 or part thereof, for the purpose of sub-clause (3) of section 128A.\n\n(8) Where the proper officer is of the view that the application made in FORM GST SPL-01 or FORM GST SPL-02 is liable to be rejected as not being eligible for waiver of interest, or penalty, or both, as per section 128A, he shall issue a notice on the common portal to the applicant in FORM GST SPL-03 within three months from the date of receipt of the said application and shall also give the applicant an opportunity of being heard.\n\n(9) On receiving the notice under sub-rule (8), the applicant may file a reply to the said notice on the common portal in FORM GST SPL-04, within a period of one month from the date of receipt of the said notice.\n\n(10) If the proper officer is satisfied that the applicant is eligible for waiver of interest and penalty as per section 128A, he shall issue an order in FORM GST SPL-05 on the common portal accepting the said application and concluding the proceedings under section 128A.\n\n(11) In cases where the order in FORM GST SPL-05 is issued by the proper officer under sub-rule (10),–\n(a) in respect of an application filed in FORM GST SPL-01 pertaining to a notice or statement referred to in clause (a) of sub-section (1) of section 128A, the summary of order in FORM GST DRC-07 as per sub-rule (5) of rule 142 shall not be required to be issued by the proper officer, in respect of the said notice or statement;\n(b) in respect of an application filed in FORM GST SPL-02 pertaining to an order referred to in clause (b) or clause (c) of sub-section (1) of section 128A, the liability created in the part II of Electronic Liability Register, shall be modified accordingly.\n\n(12) If the proper officer is not satisfied with the reply of the applicant, the proper officer shall issue an order in FORM GST SPL-07 rejecting the said application.\n\n(13) (a) In cases where notice in FORM GST SPL-03 has not been issued, the proper officer shall issue the order under sub-rule (10) within a period of three months from the date of receipt of the application in FORM GST SPL-01 or FORM GST SPL-02, as the case may be.\n(b) In cases where notice in FORM GST SPL-03 has been issued, the proper officer shall issue the order in sub-rule (10) or sub-rule (12) within a period of three months from the date of receipt of reply of the applicant in FORM GST SPL-04, or within a period of four months from the date of issuance of notice in FORM GST SPL-03 where no reply is received from the applicant.\nExplanation.– For the purposes of this sub-rule, in cases referred to in the proviso to sub-rule (7), the time period from the date of filing of the application under sub-rule (1) or sub-rule (2) till the date of submission of the order for withdrawal of the appeal or the writ, as the case may be, shall not be included while calculating the time period under clause (a) or clause (b) of this sub-rule.\n\n(14) If no order is issued by the proper officer within the time limit specified in sub-rule (13), then the application in FORM GST SPL-01 or FORM GST SPL-02, as the case may be, shall be deemed to be approved and the proceedings shall be deemed to be concluded.\n\n(15) (a) In cases where no appeal is filed against the order in FORM GST SPL-07 within the time period specified in sub-section (1) of section 107, the original appeal, if any, filed by the applicant against the order mentioned in clause (b) or clause (c) of sub-section (1) of section 128A, and withdrawn for filing the application in FORM GST SPL-02 in accordance with sub-section (3) of section 128A, shall be restored.\n(b) In cases where an appeal is filed against the order in FORM GST SPL-07 for rejection of application for waiver of interest, or penalty, or both, if—\n(i) the appellate authority has held that the proper officer has wrongly rejected the application for waiver of interest, or penalty, or both, in FORM GST SPL-07, the said appellate authority shall pass an order in FORM GST SPL-06 on the common portal accepting the said application and concluding the proceedings under section 128A; or\n(ii) the appellate authority has held that the proper officer has rightly rejected the application for waiver of interest, or penalty, or both, in FORM GST SPL-07, the original appeal, if any, filed by the applicant against the order mentioned in clause (b) or clause (c) of sub-section (1) of section 128A, and withdrawn for filing the application in FORM GST SPL-02 in accordance with sub-section (3) of section 128A, shall be restored, subject to condition that the applicant files an undertaking electronically on the portal in FORM GST SPL-08, within a period of three months from the date of issuance of the order by the appellate authority in FORM GST APL-04, that he has neither filed nor intends to file any appeal against the said order of the Appellate Authority.\n\n(16) In cases where the taxpayer is required to pay an additional amount of tax liability as per the second proviso to sub-section (1) of section 128A, and such additional payment is not made within the time limit specified in the said proviso, the waiver of interest, or penalty, or both, under the said section as per the order issued in FORM GST SPL-05 or FORM GST SPL-06, if any, shall become void.\n\n(17) In cases where the taxpayer is required to pay any amount of interest, or penalty, or both, in respect of any demand pertaining to erroneous refund or on account of demand pertaining to the period other than the period mentioned in sub-section (1) of section 128A, and the details of such amount have been mentioned in FORM GST SPL-05 or FORM GST SPL-06, the applicant shall pay the said amount of interest, or penalty, or both, within a period of three months from the date of issuance of the order in FORM GST SPL-05 or FORM GST SPL-06, as the case may be, and where the said amount is not paid within the said time period, the waiver of interest, or penalty, or both, under section 128A as per the order issued in FORM GST SPL-05 or FORM GST SPL-06, shall become void.\n\nExplanation.– For the purposes of this rule, the proper officer for issuance of order under this rule,–\n(a) in cases where the application for waiver of interest, or penalty, or both is made with respect to a notice or statement mentioned in clause (a) of sub-section (1) of section 128A, shall be the proper officer for issuance of order as per section 73; and\n(b) in cases where the application for waiver of interest, or penalty, or both, is made with respect to an order mentioned in clause (b) or clause (c) of sub-section (1) of section 128A, shall be the proper officer referred to in section 79 of the Act.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s128A",
+      "text": "Section 128A"
+    },
+    {
+      "type": "section",
+      "id": "s16",
+      "text": "Section 16"
+    },
+    {
+      "type": "section",
+      "id": "s73",
+      "text": "Section 73"
+    },
+    {
+      "type": "section",
+      "id": "s107",
+      "text": "Section 107"
+    },
+    {
+      "type": "section",
+      "id": "s79",
+      "text": "Section 79"
+    },
+    {
+      "type": "rule",
+      "id": "r142",
+      "text": "Rule 142"
+    }
+  ]
 }
   ]
 }
