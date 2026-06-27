@@ -486,21 +486,210 @@
   ]
 },
     {
+  "id": "s23",
+  "number": "23",
+  "heading": "Persons not liable for registration",
+  "content": "(1) The following persons shall not be liable to registration, namely:-\n(a) any person engaged exclusively in the business of supplying goods or services or both that are not liable to tax or wholly exempt from tax under this Act or under the Integrated Goods and Services Tax Act;\n(b) an agriculturist, to the extent of supply of produce out of cultivation of land.\n\n(2) Notwithstanding anything to the contrary contained in sub-section (1) of section 22 or section 24, the Government may, on the recommendations of the Council, by notification, subject to such conditions and restrictions as may be specified therein, specify the category of persons who may be exempted from obtaining registration under this Act.",
+  "references": [
+    {
       "type": "section",
-      "id": "s44",
-      "text": "Section 44"
+      "id": "s22",
+      "text": "Section 22"
     },
     {
       "type": "section",
-      "id": "s37",
-      "text": "Section 37"
-    },
-    {
-      "type": "section",
-      "id": "s68",
-      "text": "Section 68"
+      "id": "s24",
+      "text": "Section 24"
     }
   ]
+},
+{
+  "id": "s24",
+  "number": "24",
+  "heading": "Compulsory registration in certain cases",
+  "content": "Notwithstanding anything contained in sub-section (1) of section 22, the following categories of persons shall be required to be registered under this Act,-\n(i) persons making any inter-State taxable supply;\n(ii) casual taxable persons making taxable supply;\n(iii) persons who are required to pay tax under reverse charge;\n(iv) person who are required to pay tax under sub-section (5) of section 9;\n(v) non-resident taxable persons making taxable supply;\n(vi) persons who are required to deduct tax under section 51, whether or not separately registered under this Act;\n(vii) persons who make taxable supply of goods or services or both on behalf of other taxable persons whether as an agent or otherwise;\n(viii) Input Service Distributor, whether or not separately registered under this Act;\n(ix) persons who supply goods or services or both, other than supplies specified under sub-section (5) of section 9, through such electronic commerce operator who is required to collect tax at source under section 52;\n(x) every electronic commerce operator who is required to collect tax at source under section 52;\n(xi) every person supplying online information and database access or retrieval services from a place outside India to a person in India, other than a registered person;\n(xia) every person supplying online money gaming from a place outside India to a person in India; and\n(xii) such other person or class of persons as may be notified by the Government on the recommendations of the Council.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s22",
+      "text": "Section 22"
+    },
+    {
+      "type": "section",
+      "id": "s9",
+      "text": "Section 9"
+    },
+    {
+      "type": "section",
+      "id": "s51",
+      "text": "Section 51"
+    },
+    {
+      "type": "section",
+      "id": "s52",
+      "text": "Section 52"
+    }
+  ]
+},
+{
+  "id": "s25",
+  "number": "25",
+  "heading": "Procedure for registration",
+  "content": "(1) Every person who is liable to be registered under section 22 or section 24 shall apply for registration in every such State or Union territory in which he is so liable within thirty days from the date on which he becomes liable to registration, in such manner and subject to such conditions as may be prescribed:\nProvided that a casual taxable person or a non-resident taxable person shall apply for registration at least five days prior to the commencement of business:\nProvided further that a person having a unit, as defined in the Special Economic Zones Act, 2005 (28 of 2005), in a Special Economic Zone or being a Special Economic Zone developer shall have to apply for a separate registration, as distinct from his place of business located outside the Special Economic Zone in the same State or Union territory.\nExplanation.-Every person who makes a supply from the territorial waters of India shall obtain registration in the coastal State or Union territory where the nearest point of the appropriate baseline is located.\n\n(2) A person seeking registration under this Act shall be granted a single registration in a State or Union territory:\nProvided that a person having multiple places of business in a State or Union territory may be granted a separate registration for each such place of business, subject to such conditions as may be prescribed.\n\n(3) A person, though not liable to be registered under section 22 or section 24 may get himself registered voluntarily, and all provisions of this Act, as are applicable to a registered person, shall apply to such person.\n\n(4) A person who has obtained or is required to obtain more than one registration, whether in one State or Union territory or more than one State or Union territory shall, in respect of each such registration, be treated as distinct persons for the purposes of this Act.\n\n(5) Where a person who has obtained or is required to obtain registration in a State or Union territory in respect of an establishment, has an establishment in another State or Union territory, then such establishments shall be treated as establishments of distinct persons for the purposes of this Act.\n\n(6) Every person shall have a Permanent Account Number issued under the Income-tax Act, 1961 (43 of 1961) in order to be eligible for grant of registration:\nProvided that a person required to deduct tax under section 51 may have, in lieu of a Permanent Account Number, a Tax Deduction and Collection Account Number issued under the said Act in order to be eligible for grant of registration.\n\n(6A) Every registered person shall undergo authentication, or furnish proof of possession of Aadhaar number, in such form and manner and within such time as may be prescribed:\nProvided that if an Aadhaar number is not assigned to the registered person, such person shall be offered alternate and viable means of identification in such manner as Government may, on the recommendations of the Council, prescribe:\nProvided further that in case of failure to undergo authentication or furnish proof of possession of Aadhaar number or furnish alternate and viable means of identification, registration allotted to such person shall be deemed to be invalid and the other provisions of this Act shall apply as if such person does not have a registration.\n\n(6B) On and from the date of notification, every individual shall, in order to be eligible for grant of registration, undergo authentication, or furnish proof of possession of Aadhaar number, in such manner as the Government may, on the recommendations of the Council, specify in the said notification:\nProvided that if an Aadhaar number is not assigned to an individual, such individual shall be offered alternate and viable means of identification in such manner as the Government may, on the recommendations of the Council, specify in the said notification.\n\n(6C) On and from the date of notification, every person, other than an individual, shall, in order to be eligible for grant of registration, undergo authentication, or furnish proof of possession of Aadhaar number of the Karta, Managing Director, whole time Director, such number of partners, Members of Managing Committee of Association, Board of Trustees, authorised representative, authorised signatory and such other class of persons, in such manner, as the Government may, on the recommendations of the Council, specify in the said notification:\nProvided that where such person or class of persons have not been assigned the Aadhaar Number, such person or class of persons shall be offered alternate and viable means of identification in such manner as the Government may, on the recommendations of the Council, specify in the said notification.\n\n(6D) The provisions of sub-section (6A) or sub-section (6B) or sub-section (6C) shall not apply to such person or class of persons or any State or Union territory or part thereof, as the Government may, on the recommendations of the Council, specify by notification.\nExplanation. -For the purposes of this section, the expression - \"Aadhaar number\" - shall have the same meaning as assigned to it in clause (a) of section 2 of the Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016 (18 of 2016).\n\n(7) Notwithstanding anything contained in sub-section (6), a non-resident taxable person may be granted registration under sub-section (1) on the basis of such other documents as may be prescribed.\n\n(8) where a person who is liable to be registered under this Act fails to obtain registration, the proper officer may, without prejudice to any action which may be taken under this Act or under any other law for the time being in force, proceed to register such person in such manner as may be prescribed.\n\n(9) Notwithstanding anything contained in sub-section (1),-\n(a) any specialised agency of the United Nations Organisation or any Multilateral Financial Institution and Organisation notified under the United Nations (Privileges and Immunities) Act, 1947 (46 of 1947), Consulate or Embassy of foreign countries; and\n(b) any other person or class of persons, as may be notified by the Commissioner,\nshall be granted a Unique Identity Number in such manner and for such purposes, including refund of taxes on the notified supplies of goods or services or both received by them, as may be prescribed.\n\n(10) The registration or the Unique Identity Number shall be granted or rejected after due verification in such manner and within such period as may be prescribed.\n\n(11) A certificate of registration shall be issued in such form and with effect from such date as may be prescribed.\n\n(12) A registration or a Unique Identity Number shall be deemed to have been granted after the expiry of the period prescribed under sub-section (10), if no deficiency has been communicated to the applicant within that period.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s22",
+      "text": "Section 22"
+    },
+    {
+      "type": "section",
+      "id": "s24",
+      "text": "Section 24"
+    },
+    {
+      "type": "section",
+      "id": "s51",
+      "text": "Section 51"
+    }
+  ]
+},
+{
+  "id": "s26",
+  "number": "26",
+  "heading": "Deemed registration",
+  "content": "(1) The grant of registration or the Unique Identity Number under the State Goods and Services Tax Act or the Union Territory Goods and Services Tax Act shall be deemed to be a grant of registration or the Unique Identity Number under this Act subject to the condition that the application for registration or the Unique Identity Number has not been rejected under this Act within the time specified in sub-section (10) of section 25.\n\n(2) Notwithstanding anything contained in sub-section (10) of section 25, any rejection of application for registration or the Unique Identity Number under the State Goods and Services Tax Act or the Union Territory Goods and Services Tax Act shall be deemed to be a rejection of application for registration under this Act.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s25",
+      "text": "Section 25"
+    }
+  ]
+},
+{
+  "id": "s27",
+  "number": "27",
+  "heading": "Special provisions relating to casual taxable person and non-resident taxable person",
+  "content": "(1) The certificate of registration issued to a casual taxable person or a non-resident taxable person shall be valid for the period specified in the application for registration or ninety days from the effective date of registration, whichever is earlier and such person shall make taxable supplies only after the issuance of the certificate of registration:\nProvided that the proper officer may, on sufficient cause being shown by the said taxable person, extend the said period of ninety days by a further period not exceeding ninety days.\n\n(2) A casual taxable person or a non-resident taxable person shall, at the time of submission of application for registration under sub-section (1) of section 25, make an advance deposit of tax in an amount equivalent to the estimated tax liability of such person for the period for which the registration is sought:\nProvided that where any extension of time is sought under sub-section (1), such taxable person shall deposit an additional amount of tax equivalent to the estimated tax liability of such person for the period for which the extension is sought.\n\n(3) The amount deposited under sub-section (2) shall be credited to the electronic cash ledger of such person and shall be utilised in the manner provided under section 49.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s25",
+      "text": "Section 25"
+    },
+    {
+      "type": "section",
+      "id": "s49",
+      "text": "Section 49"
+    }
+  ]
+},
+{
+  "id": "s28",
+  "number": "28",
+  "heading": "Amendment of registration",
+  "content": "(1) Every registered person and a person to whom a Unique Identity Number has been assigned shall inform the proper officer of any changes in the information furnished at the time of registration or subsequent thereto, in such form and manner and within such period as may be prescribed.\n\n(2) The proper officer may, on the basis of information furnished under sub-section (1) or as ascertained by him, approve or reject amendments in the registration particulars in such manner and within such period as may be prescribed:\nProvided that approval of the proper officer shall not be required in respect of amendment of such particulars as may be prescribed:\nProvided further that the proper officer shall not reject the application for amendment in the registration particulars without giving the person an opportunity of being heard.\n\n(3) Any rejection or approval of amendments under the State Goods and Services Tax Act or the Union Territory Goods and Services Tax Act, as the case may be, shall be deemed to be a rejection or approval under this Act.",
+  "references": []
+},
+{
+  "id": "s29",
+  "number": "29",
+  "heading": "Cancellation or suspension of registration",
+  "content": "(1) The proper officer may, either on his own motion or on an application filed by the registered person or by his legal heirs, in case of death of such person, cancel the registration, in such manner and within such period as may be prescribed, having regard to the circumstances where,-\n(a) the business has been discontinued, transferred fully for any reason including death of the proprietor, amalgamated with other legal entity, demerged or otherwise disposed of; or\n(b) there is any change in the constitution of the business; or\n(c) the taxable person is no longer liable to be registered under section 22 or section 24 or intends to optout of the registration voluntarily made under sub-section (3) of section 25:\nProvided that during pendency of the proceedings relating to cancellation of registration filed by the registered person, the registration may be suspended for such period and in such manner as may be prescribed.\n\n(2) The proper officer may cancel the registration of a person from such date, including any retrospective date, as he may deem fit, where,-\n(a) a registered person has contravened such provisions of the Act or the rules made thereunder as may be prescribed; or\n(b) a person paying tax under section 10 has not furnished the return for a financial year beyond three months from the due date of furnishing the said return; or\n(c) any registered person, other than a person specified in clause (b), has not furnished returns for a such continuous tax period as may be prescribed; or\n(d) any person who has taken voluntary registration under sub-section (3) of section 25 has not commenced business within six months from the date of registration; or\n(e) registration has been obtained by means of fraud, wilful misstatement or suppression of facts:\nProvided that the proper officer shall not cancel the registration without giving the person an opportunity of being heard:\nProvided further that during pendency of the proceedings relating to cancellation of registration, the proper officer may suspend the registration for such period and in such manner as may be prescribed.\n\n(3) the cancellation of registration under this section shall not affect the liability of the person to pay tax and other dues under this Act or to discharge any obligation under this Act or the rules made thereunder for any period prior to the date of cancellation whether or not such tax and other dues are determined before or after the date of cancellation.\n\n(4) The cancellation of registration under the State Goods and Services Tax Act or the Union Territory Goods and Services Tax Act, as the case may be, shall be deemed to be a cancellation of registration under this Act.\n\n(5) Every registered person whose registration is cancelled shall pay an amount, by way of debit in the electronic credit ledger or electronic cash ledger, equivalent to the credit of input tax in respect of inputs held in stock and inputs contained in semi-finished or finished goods held in stock or capital goods or plant and machinery on the day immediately preceding the date of such cancellation or the output tax payable on such goods, whichever is higher, calculated in such manner as may be prescribed:\nProvided that in case of capital goods or plant and machinery, the taxable person shall pay an amount equal to the input tax credit taken on the said capital goods or plant and machinery, reduced by such percentage points as may be prescribed or the tax on the transaction value of such capital goods or plant and machinery under section 15, whichever is higher.\n\n(6) The amount payable under sub-section (5) shall be calculated in such manner as may be prescribed.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s22",
+      "text": "Section 22"
+    },
+    {
+      "type": "section",
+      "id": "s24",
+      "text": "Section 24"
+    },
+    {
+      "type": "section",
+      "id": "s25",
+      "text": "Section 25"
+    },
+    {
+      "type": "section",
+      "id": "s10",
+      "text": "Section 10"
+    },
+    {
+      "type": "section",
+      "id": "s15",
+      "text": "Section 15"
+    }
+  ]
+},
+    {
+  "id": "s148",
+  "number": "148",
+  "heading": "Special procedure for certain processes",
+  "content": "The Government may, on the recommendations of the Council, and subject to such conditions and safeguards as may be prescribed, notify certain classes of registered persons, and the special procedures to be followed by such persons including those with regard to registration, furnishing of return, payment of tax and administration of such persons.",
+  "references": []
+},
+{
+  "id": "s148A",
+  "number": "148A",
+  "heading": "Track and trace mechanism for certain goods",
+  "content": "(1) The Government may, on the recommendations of the Council, by notification, specify,-\n(a) the goods;\n(b) persons or class of persons who are in possession or deal with such goods,\nto which the provisions of this section shall apply.\n\n(2) The Government may, in respect of the goods referred to in clause (a) of sub-section (1),––\n(a) provide a system for enabling affixation of unique identification marking and for electronic storage and access of information contained therein, through such persons, as may be prescribed; and\n(b) prescribe the unique identification marking for such goods, including the information to be recorded therein.\n\n(3) The persons referred to in sub-section (1), shall,––\n(a) affix on the said goods or packages thereof, a unique identification marking, containing such information and in such manner;\n(b) furnish such information and details within such time and maintain such records or documents, in such form and manner;\n(c) furnish details of the machinery installed in the place of business of manufacture of such goods, including the identification, capacity, duration of operation and such other details or information, within such time and in such form and manner;\n(d) pay such amount in relation to the system referred to in sub-section (2),\nas may be prescribed.",
+  "references": []
+},
+{
+  "id": "s149",
+  "number": "149",
+  "heading": "Goods and services tax compliance rating",
+  "content": "(1) Every registered person may be assigned a goods and services tax compliance rating score by the Government based on his record of compliance with the provisions of this Act.\n\n(2) The goods and services tax compliance rating score may be determined on the basis of such parameters as may be prescribed.\n\n(3) The goods and services tax compliance rating score may be updated at periodic intervals and intimated to the registered person and also placed in the public domain in such manner as may be prescribed.",
+  "references": []
+},
+{
+  "id": "s150",
+  "number": "150",
+  "heading": "Obligation to furnish information return",
+  "content": "(1) Any person, being-\n(a) a taxable person; or\n(b) a local authority or other public body or association; or\n(c) any authority of the State Government responsible for the collection of value added tax or sales tax or State excise duty or an authority of the Central Government responsible for the collection of excise duty or customs duty; or\n(d) an income tax authority appointed under the provisions of the Income-tax Act, 1961 (43 of 1961); or\n(e) a banking company within the meaning of clause (a) of section 45A of the Reserve Bank of India Act, 1934 (2 of 1934); or\n(f) a State Electricity Board or an electricity distribution or transmission licensee under the Electricity Act, 2003 (36 of 2003), or any other entity entrusted with such functions by the Central Government or the State Government; or\n(g) the Registrar or Sub-Registrar appointed under section 6 of the Registration Act, 1908 (16 of 1908); or\n(h) a Registrar within the meaning of the Companies Act, 2013 (18 of 2013); or\n(i) the registering authority empowered to register motor vehicles under the Motor Vehicles Act, 1988 (59 of 1988); or\n(j) the Collector referred to in clause (c) of section 3 of the Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013 (30 of 2013); or\n(k) the recognised stock exchange referred to in clause (f) of section 2 of the Securities Contracts (Regulation) Act, 1956 (42 of 1956); or\n(l) a depository referred to in clause (e) of sub-section (1) of section 2 of the Depositories Act, 1996 (22 of 1996); or\n(m) an officer of the Reserve Bank of India as constituted under section 3 of the Reserve Bank of India Act, 1934 (2 of 1934); or\n(n) the Goods and Services Tax Network, a company registered under the Companies Act, 2013 (18 of 2013); or\n(o) a person to whom a Unique Identity Number has been granted under sub-section (9) of section 25; or\n(p) any other person as may be specified, on the recommendations of the Council, by the Government,\nwho is responsible for maintaining record of registration or statement of accounts or any periodic return or document containing details of payment of tax and other details of transaction of goods or services or both or transactions related to a bank account or consumption of electricity or transaction of purchase, sale or exchange of goods or property or right or interest in a property under any law for the time being in force, shall furnish an information return of the same in respect of such periods, within such time, in such form and manner and to such authority or agency as may be prescribed.\n\n(2) Where the Commissioner, or an officer authorised by him in this behalf, considers that the information furnished in the information return is defective, he may intimate the defect to the person who has furnished such information return and give him an opportunity of rectifying the defect within a period of thirty days from the date of such intimation or within such further period which, on an application made in this behalf, the said authority may allow and if the defect is not rectified within the said period of thirty days or, the further period so allowed, then, notwithstanding anything contained in any other provisions of this Act, such information return shall be treated as not furnished and the provisions of this Act shall apply.\n\n(3) Where a person who is required to furnish information return has not furnished the same within the time specified in sub-section (1) or sub-section (2), the said authority may serve upon him a notice requiring furnishing of such information return within a period not exceeding ninety days from the date of service of the notice and such person shall furnish the information return.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s25",
+      "text": "Section 25"
+    }
+  ]
+},
+{
+  "id": "s151",
+  "number": "151",
+  "heading": "Power to call for information",
+  "content": "The Commissioner or an officer authorised by him may, by an order, direct any person to furnish information relating to any matter dealt with in connection with this Act, within such time, in such form, and in such manner, as may be specified therein.",
+  "references": []
+},
+{
+  "id": "s152",
+  "number": "152",
+  "heading": "Bar on disclosure of information",
+  "content": "(1) No information with respect to any matter given for the purposes of section 150 or section 151 shall, without the previous consent in writing of the concerned person or his authorised representative, be published in such manner so as to enable such particulars to be identified as referring to a particular person and no such information shall be used for the purpose of any proceedings under this Act without giving an opportunity of being heard to the person concerned.\n\n(2) Nothing in this section shall apply to the publication of any information relating to a class of taxable persons or class of transactions, if in the opinion of the Commissioner, it is desirable in the public interest to publish such information.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s150",
+      "text": "Section 150"
+    },
+    {
+      "type": "section",
+      "id": "s151",
+      "text": "Section 151"
+    }
+  ]
+},
+{
+  "id": "s153",
+  "number": "153",
+  "heading": "Taking assistance from an expert",
+  "content": "Any officer not below the rank of Assistant Commissioner may, having regard to the nature and complexity of the case and the interest of revenue, take assistance of any expert at any stage of scrutiny, inquiry, investigation or any other proceedings before him.",
+  "references": []
 },
     {
   "id": "s154",
@@ -574,6 +763,23 @@
       "id": "s39",
       "text": "Section 39"
     },
+    {
+      "type": "section",
+      "id": "s44",
+      "text": "Section 44"
+    },
+    {
+      "type": "section",
+      "id": "s37",
+      "text": "Section 37"
+    },
+    {
+      "type": "section",
+      "id": "s68",
+      "text": "Section 68"
+    }
+  ]
+},
     {
   "id": "s159",
   "number": "159",
