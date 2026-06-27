@@ -1435,6 +1435,143 @@
       "text": "Rule 53"
     }
   ]
+},
+    {
+  "id": "r55",
+  "number": "55",
+  "heading": "Transportation of goods without issue of invoice",
+  "content": "(1) For the purposes of-\n(a) supply of liquid gas where the quantity at the time of removal from the place of business of the supplier is not known,\n(b) transportation of goods for job work,\n(c) transportation of goods for reasons other than by way of supply, or\n(d) such other supplies as may be notified by the Board,\nthe consigner may issue a delivery challan, serially numbered not exceeding sixteen characters, in one or multiple series, in lieu of invoice at the time of removal of goods for transportation, containing the following details, namely:-\n(i) date and number of the delivery challan;\n(ii) name, address and Goods and Services Tax Identification Number of the consigner, if registered;\n(iii) name, address and Goods and Services Tax Identification Number or Unique Identity Number of the consignee, if registered;\n(iv) Harmonised System of Nomenclature code and description of goods;\n(v) quantity (provisional, where the exact quantity being supplied is not known);\n(vi) taxable value;\n(vii) tax rate and tax amount - central tax, State tax, integrated tax, Union territory tax or cess, where the transportation is for supply to the consignee;\n(viii) place of supply, in case of inter-State movement; and\n(ix) signature.\n\n(2) The delivery challan shall be prepared in triplicate, in case of supply of goods, in the following manner, namely:-\n(a) the original copy being marked as ORIGINAL FOR CONSIGNEE;\n(b) the duplicate copy being marked as DUPLICATE FOR TRANSPORTER; and\n(c) the triplicate copy being marked as TRIPLICATE FOR CONSIGNER.\n\n(3) Where goods are being transported on a delivery challan in lieu of invoice, the same shall be declared as specified in rule 138.\n\n(4) Where the goods being transported are for the purpose of supply to the recipient but the tax invoice could not be issued at the time of removal of goods for the purpose of supply, the supplier shall issue a tax invoice after delivery of goods.\n\n(5) Where the goods are being transported in a semi knocked down or completely knocked down condition or in batches or lots -\n(a) the supplier shall issue the complete invoice before dispatch of the first consignment;\n(b) the supplier shall issue a delivery challan for each of the subsequent consignments, giving reference of the invoice;\n(c) each consignment shall be accompanied by copies of the corresponding delivery challan along with a duly certified copy of the invoice; and\n(d) the original copy of the invoice shall be sent along with the last consignment.",
+  "references": [
+    {
+      "type": "rule",
+      "id": "r138",
+      "text": "Rule 138"
+    }
+  ]
+},
+{
+  "id": "r55A",
+  "number": "55A",
+  "heading": "Tax Invoice or bill of supply to accompany transport of goods",
+  "content": "The person-in-charge of the conveyance shall carry a copy of the tax invoice or the bill of supply issued in accordance with the provisions of rules 46, 46A or 49 in a case where such person is not required to carry an e-way bill under these rules.",
+  "references": [
+    {
+      "type": "rule",
+      "id": "r46",
+      "text": "Rule 46"
+    },
+    {
+      "type": "rule",
+      "id": "r46A",
+      "text": "Rule 46A"
+    },
+    {
+      "type": "rule",
+      "id": "r49",
+      "text": "Rule 49"
+    }
+  ]
+},
+{
+  "id": "r56",
+  "number": "56",
+  "heading": "Maintenance of accounts by registered persons",
+  "content": "(1) Every registered person shall keep and maintain, in addition to the particulars mentioned in sub-section (1) of section 35, a true and correct account of the goods or services imported or exported or of supplies attracting payment of tax on reverse charge along with the relevant documents, including invoices, bills of supply, delivery challans, credit notes, debit notes, receipt vouchers, payment vouchers and refund vouchers.\n\n(2) Every registered person, other than a person paying tax under section 10, shall maintain the accounts of stock in respect of goods received and supplied by him, and such accounts shall contain particulars of the opening balance, receipt, supply, goods lost, stolen, destroyed, written off or disposed of by way of gift or free sample and the balance of stock including raw materials, finished goods, scrap and wastage thereof.\n\n(3) Every registered person shall keep and maintain a separate account of advances received, paid and adjustments made thereto.\n\n(4) Every registered person, other than a person paying tax under section 10, shall keep and maintain an account, containing the details of tax payable (including tax payable in accordance with the provisions of sub-section (3) and sub-section (4) of section 9), tax collected and paid, input tax, input tax credit claimed, together with a register of tax invoice, credit notes, debit notes, delivery challan issued or received during any tax period.\n\n(5) Every registered person shall keep the particulars of -\n(a) names and complete addresses of suppliers from whom he has received the goods or services chargeable to tax under the Act;\n(b) names and complete addresses of the persons to whom he has supplied goods or services, where required under the provisions of this Chapter;\n(c) the complete address of the premises where goods are stored by him, including goods stored during transit along with the particulars of the stock stored therein.\n\n(6) If any taxable goods are found to be stored at any place(s) other than those declared under sub-rule (5) without the cover of any valid documents, the proper officer shall determine the amount of tax payable on such goods as if such goods have been supplied by the registered person.\n\n(7) Every registered person shall keep the books of account at the principal place of business and books of account relating to additional place of business mentioned in his certificate of registration and such books of account shall include any electronic form of data stored on any electronic device.\n\n(8) Any entry in registers, accounts and documents shall not be erased, effaced or overwritten, and all incorrect entries, otherwise than those of clerical nature, shall be scored out under attestation and thereafter the correct entry shall be recorded and where the registers and other documents are maintained electronically, a log of every entry edited or deleted shall be maintained.\n\n(9) Each volume of books of account maintained manually by the registered person shall be serially numbered.\n\n(10) Unless proved otherwise, if any documents, registers, or any books of account belonging to a registered person are found at any premises other than those mentioned in the certificate of registration, they shall be presumed to be maintained by the said registered person.\n\n(11) Every agent referred to in clause (5) of section 2 shall maintain accounts depicting the,-\n(a) particulars of authorisation received by him from each principal to receive or supply goods or services on behalf of such principal separately;\n(b) particulars including description, value and quantity (wherever applicable) of goods or services received on behalf of every principal;\n(c) particulars including description, value and quantity (wherever applicable) of goods or services supplied on behalf of every principal;\n(d) details of accounts furnished to every principal; and\n(e) tax paid on receipts or on supply of goods or services effected on behalf of every principal.\n\n(12) Every registered person manufacturing goods shall maintain monthly production accounts showing quantitative details of raw materials or services used in the manufacture and quantitative details of the goods so manufactured including the waste and by products thereof.\n\n(13) Every registered person supplying services shall maintain the accounts showing quantitative details of goods used in the provision of services, details of input services utilised and the services supplied.\n\n(14) Every registered person executing works contract shall keep separate accounts for works contract showing -\n(a) the names and addresses of the persons on whose behalf the works contract is executed;\n(b) description, value and quantity (wherever applicable) of goods or services received for the execution of works contract;\n(c) description, value and quantity (wherever applicable) of goods or services utilized in the execution of works contract;\n(d) the details of payment received in respect of each works contract; and\n(e) the names and addresses of suppliers from whom he received goods or services.\n\n(15) The records under the provisions of this Chapter may be maintained in electronic form and the record so maintained shall be authenticated by means of a digital signature.\n\n(16) Accounts maintained by the registered person together with all the invoices, bills of supply, credit and debit notes, and delivery challans relating to stocks, deliveries, inward supply and outward supply shall be preserved for the period as provided in section 36 and shall, where such accounts and documents are maintained manually, be kept at every related place of business mentioned in the certificate of registration and shall be accessible at every related place of business where such accounts and documents are maintained digitally.\n\n(17) Any person having custody over the goods in the capacity of a carrier or a clearing and forwarding agent for delivery or dispatch thereof to a recipient on behalf of any registered person shall maintain true and correct records in respect of such goods handled by him on behalf of such registered person and shall produce the details thereof as and when required by the proper officer.\n\n(18) Every registered person shall, on demand, produce the books of accounts which he is required to maintain under any law for the time being in force.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s35",
+      "text": "Section 35"
+    },
+    {
+      "type": "section",
+      "id": "s10",
+      "text": "Section 10"
+    },
+    {
+      "type": "section",
+      "id": "s9",
+      "text": "Section 9"
+    },
+    {
+      "type": "section",
+      "id": "s2",
+      "text": "Section 2"
+    },
+    {
+      "type": "section",
+      "id": "s36",
+      "text": "Section 36"
+    }
+  ]
+},
+{
+  "id": "r57",
+  "number": "57",
+  "heading": "Generation and maintenance of electronic records",
+  "content": "(1) Proper electronic back-up of records shall be maintained and preserved in such manner that, in the event of destruction of such records due to accidents or natural causes, the information can be restored within a reasonable period of time.\n\n(2) The registered person maintaining electronic records shall produce, on demand, the relevant records or documents, duly authenticated by him, in hard copy or in any electronically readable format.\n\n(3) Where the accounts and records are stored electronically by any registered person, he shall, on demand, provide the details of such files, passwords of such files and explanation for codes used, where necessary, for access and any other information which is required for such access along with a sample copy in print form of the information stored in such files.",
+  "references": []
+},
+{
+  "id": "r58",
+  "number": "58",
+  "heading": "Records to be maintained by owner or operator of godown or warehouse and transporters",
+  "content": "(1) Every person required to maintain records and accounts in accordance with the provisions of sub-section (2) of section 35, if not already registered under the Act, shall submit the details regarding his business electronically on the common portal in FORM GST ENR-01 either directly or through a Facilitation Centre notified by the Commissioner and, upon validation of the details furnished, a unique enrolment number shall be generated and communicated to the said person.\n\n(1A) For the purposes of Chapter XVI of these rules, a transporter who is registered in more than one State or Union Territory having the same Permanent Account Number, he may apply for a unique common enrolment number by submitting the details in FORM GST ENR-02 using any one of his Goods and Services Tax Identification Numbers, and upon validation of the details furnished, a unique common enrolment number shall be generated and communicated to the said transporter:\n\nProvided that where the said transporter has obtained a unique common enrolment number, he shall not be eligible to use any of the Goods and Services Tax Identification Numbers for the purposes of the said Chapter XVI.\n\n(2) The person enrolled under sub-rule (1) as aforesaid in any other State or Union territory shall be deemed to be enrolled in the State or Union territory.\n\n(3) Every person who is enrolled under sub-rule (1) shall, where required, amend the details furnished in FORM GST ENR-01 electronically on the common portal either directly or through a Facilitation Centre notified by the Commissioner.\n\n(4) Subject to the provisions of rule 56,-\n(a) any person engaged in the business of transporting goods shall maintain records of goods transported, delivered and goods stored in transit by him along with the Goods and Services Tax Identification Number of the registered consigner and consignee for each of his branches.\n(b) every owner or operator of a warehouse or godown shall maintain books of accounts with respect to the period for which particular goods remain in the warehouse, including the particulars relating to dispatch, movement, receipt and disposal of such goods.\n\n(5) The owner or the operator of the godown shall store the goods in such manner that they can be identified item-wise and owner-wise and shall facilitate any physical verification or inspection by the proper officer on demand.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s35",
+      "text": "Section 35"
+    },
+    {
+      "type": "rule",
+      "id": "r56",
+      "text": "Rule 56"
+    }
+  ]
+},
+{
+  "id": "r59",
+  "number": "59",
+  "heading": "Form and manner of furnishing details of outward supplies",
+  "content": "(1) Every registered person, other than a person referred to in section 14 of the Integrated Goods and Services Tax Act, 2017 (13 of 2017), required to furnish the details of outward supplies of goods or services or both under section 37, shall furnish such details in FORM GSTR-1 for the month or the quarter, as the case may be, electronically through the common portal, either directly or through a Facilitation Centre as may be notified by the Commissioner.\n\nProvided that the said person may, after furnishing the details of outward supplies of goods or service or both in FORM GSTR-1 for a tax period but before filing of return in FORM GSTR-3B for the said tax period, at his own option, amend or furnish additional details of outward supplies of goods or services or both in FORM GSTR-1A for the said tax period electronically through the common portal, either directly or through a Facilitation Centre as may be notified by the Commissioner.\n\n(2) The registered persons required to furnish return for every quarter under proviso to sub-section (1) of section 39 may furnish the details of such outward supplies of goods or services or both to a registered person, as he may consider necessary, for the first and second months of a quarter, up to a cumulative value of fifty lakh rupees in each of the months, using invoice furnishing facility (hereafter in this notification referred to as the \"IFF\") electronically on the common portal, duly authenticated in the manner prescribed under rule 26, from the 1st day of the month succeeding such month till the 13th day of the said month.\n\nProvided that a registered person may furnish such details, for the month of April, 2021, using IFF from the 1st day of May, 2021 till the 28th day of May, 2021.\n\nProvided further that a registered person may furnish such details, for the month of May, 2021, using IFF from the 1st day of June, 2021 till the 28th day of June, 2021.\n\n(3) The details of outward supplies furnished using the IFF, for the first and second months of a quarter, shall not be furnished in FORM GSTR-1 for the said quarter.\n\n(4) The details of outward supplies of goods or services or both furnished in FORM GSTR-1 shall include the-\n(a) invoice wise details of all -\n(i) inter-State and intra-State supplies made to the registered persons; and\n(ii) inter-State supplies with invoice value more than one lakh rupees made to the unregistered persons;\n(b) consolidated details of all -\n(i) intra-State supplies made to unregistered persons for each rate of tax; and\n(ii) State wise inter-State supplies with invoice value upto one lakh rupees made to unregistered persons for each rate of tax;\n(c) debit and credit notes, if any, issued during the month for invoices issued previously.\n\n(4A) The additional details or the amendments of the details of outward supplies of goods or services or both furnished in FORM GSTR-1A may, as per the requirement of the registered person, include the –\n(a) invoice wise details of -\n(i) inter-State and intra-State supplies made to the registered persons; and\n(ii) inter-State supplies with invoice value more than one lakh rupees made to the unregistered persons;\n(b) consolidated details of -\n(i) intra-State supplies made to unregistered persons for each rate of tax; and\n(ii) State wise inter-State supplies with invoice value upto one lakh rupees made to unregistered persons for each rate of tax;\n(c) debit and credit notes, if any, issued during the month for invoices issued previously.\n\n(5) The details of outward supplies of goods or services or both furnished using the IFF shall include the -\n(a) invoice wise details of inter-State and intra-State supplies made to the registered persons;\n(b) debit and credit notes, if any, issued during the month for such invoices issued previously.\n\n(6) Notwithstanding anything contained in this rule, -\n(a) a registered person shall not be allowed to furnish the details of outward supplies of goods or services or both under section 37 in FORM GSTR-1, if he has not furnished the return in FORM GSTR-3B for the preceding month;\n(b) a registered person, required to furnish return for every quarter under the proviso to sub-section (1) of section 39, shall not be allowed to furnish the details of outward supplies of goods or services or both under section 37 in FORM GSTR-1 or using the invoice furnishing facility, if he has not furnished the return in FORM GSTR-3B for preceding tax period;\n(c) ****;\n(d) a registered person, to whom an intimation has been issued on the common portal under the provisions of sub-rule (1) of rule 88C in respect of a tax period, shall not be allowed to furnish the details of outward supplies of goods or services or both under section 37 in FORM GSTR-1 or using the invoice furnishing facility for a subsequent tax period, unless he has either deposited the amount specified in the said intimation or has furnished a reply explaining the reasons for any amount remaining unpaid, as required under the provisions of sub-rule (2) of rule 88C;\n(e) a registered person, to whom an intimation has been issued on the common portal under the provisions of sub-rule (1) of rule 88D in respect of a tax period or periods, shall not be allowed to furnish the details of outward supplies of goods or services or both under section 37 in FORM GSTR-1 or using the invoice furnishing facility for a subsequent tax period, unless he has either paid the amount equal to the excess input tax credit as specified in the said intimation or has furnished a reply explaining the reasons in respect of the amount of excess input tax credit that still remains to be paid, as required under the provisions of sub-rule (2) of rule 88D;\n(f) a registered person shall not be allowed to furnish the details of outward supplies of goods or services or both under section 37 in FORM GSTR-1 or using the invoice furnishing facility, if he has not furnished the details of the bank account as per the provisions of rule 10A.",
+  "references": [
+    {
+      "type": "section",
+      "id": "s14",
+      "text": "Section 14 (IGST Act)"
+    },
+    {
+      "type": "section",
+      "id": "s37",
+      "text": "Section 37"
+    },
+    {
+      "type": "section",
+      "id": "s39",
+      "text": "Section 39"
+    },
+    {
+      "type": "rule",
+      "id": "r26",
+      "text": "Rule 26"
+    },
+    {
+      "type": "rule",
+      "id": "r88C",
+      "text": "Rule 88C"
+    },
+    {
+      "type": "rule",
+      "id": "r88D",
+      "text": "Rule 88D"
+    },
+    {
+      "type": "rule",
+      "id": "r10A",
+      "text": "Rule 10A"
+    }
+  ]
 }
   ]
 }
