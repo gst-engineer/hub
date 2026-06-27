@@ -534,11 +534,31 @@
   ]
 },
     {
+  "id": "s154",
+  "number": "154",
+  "heading": "Power to take samples",
+  "content": "The Commissioner or an officer authorised by him may take samples of goods from the possession of any taxable person, where he considers it necessary, and provide a receipt for any samples so taken.",
+  "references": []
+},
+    {
+  "id": "s155",
+  "number": "155",
+  "heading": "Burden of proof",
+  "content": "Where any person claims that he is eligible for input tax credit under this Act, the burden of proving such claim shall lie on such person.",
+  "references": []
+},
+  {
   "id": "s156",
   "number": "156",
   "heading": "Persons deemed to be public servants",
-  "content": "All persons discharging functions under this Act shall be deemed to be public servants within the meaning of section 21 of the Indian Penal Code.",
-  "references": []
+  "content": "All persons discharging functions under this Act shall be deemed to be public servants within the meaning of section 21 of the Indian Penal Code.\n\nNote: Section 21 of the Indian Penal Code, 1860 corresponds to section 2(28) of the Bharatiya Nyaya Sanhita, 2023 (BNS) which defines \"public servant\". The definition under BNS is substantially similar to the former IPC provision.",
+  "references": [
+    {
+      "type": "section",
+      "id": "bns-s2-28",
+      "text": "BNS, 2023, Section 2(28)"
+    }
+  ]
 },
     {
   "id": "s157",
